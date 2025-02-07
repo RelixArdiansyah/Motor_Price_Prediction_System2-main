@@ -1,0 +1,927 @@
+,company,name,year,kms_driven,Price,fuel_type
+0,Yamaha,NMAX,2018,5000,21000000,bensin
+1,Honda,Vario,2014,5000,10500000,bensin
+2,Kawasaki,Ninja KRR,2012,30000,25000000,bensin
+3,Honda,Supra,2002,5000,3200000,bensin
+4,Honda,Vario,2022,25000,19950000,bensin
+5,Honda,Scoopy,2023,5000,18000000,bensin
+6,Honda,Scoopy,2015,20000,12400000,bensin
+7,Honda,Vario,2011,5000,7500000,bensin
+8,Honda,Beat,2018,45000,15300000,bensin
+9,Yamaha,Mio,2022,5000,13300000,bensin
+10,Honda,Scoopy,2015,25000,12400000,bensin
+11,Honda,Scoopy,2015,25000,12400000,bensin
+12,Honda,Beat,2021,25000,15000000,bensin
+13,Piaggio,GTS,2021,5000,195000000,bensin
+14,Piaggio,Sprint,2022,10000,49900000,bensin
+15,Harley Davidson,Touring,2021,5000,635000000,bensin
+16,Honda,Vario,2020,50000,18500000,bensin
+17,Honda,Beat,2021,20000,15500000,bensin
+18,Honda,Beat,2021,25000,16700000,bensin
+19,Honda,CBR,2022,5000,32900000,bensin
+20,Yamaha,NMAX,2022,10000,29800000,bensin
+21,Honda,CBR,2015,40000,14500000,bensin
+22,Kawasaki,Ninja 250,2015,15000,21500000,bensin
+23,Honda,Beat,2021,5000,16800000,bensin
+24,Yamaha,Lexi,2018,15000,15000000,bensin
+25,Yamaha,Lexi,2019,10000,15500000,bensin
+26,Yamaha,Lexi,2018,10000,14700000,bensin
+27,Yamaha,Lexi,2020,10000,17000000,bensin
+28,Yamaha,Lexi,2020,15000,16700000,bensin
+29,Honda,Scoopy,2022,5000,15000000,bensin
+30,Yamaha,Vixion,2016,7000,8950000,bensin
+31,Viar,Karya,2022,25000,20750000,bensin
+32,BMW,R NineT,2015,15000,520000000,bensin
+33,Honda,Vario,2010,6000,4200000,bensin
+34,Honda,Vario,2010,5000,4200000,bensin
+35,Honda,Vario,2021,20000,19250000,bensin
+36,Yamaha,Vega R,2005,30000,3500000,bensin
+37,Yamaha,Vega R,2011,10000,5500000,bensin
+38,Yamaha,Vega R,2010,10000,4800000,bensin
+39,Yamaha,Vega R,2007,10000,4200000,bensin
+40,Honda,CBR,2017,5000,21000000,bensin
+41,Honda,CBR,2017,5000,21000000,bensin
+42,Honda,PCX,2020,30000,29800000,bensin
+43,Honda,Scoopy,2022,15000,20800000,bensin
+44,Honda,Beat,2021,5000,16700000,bensin
+45,Yamaha,Fino,2021,25000,13500000,bensin
+46,Honda,Scoopy,2019,5000,14900000,bensin
+47,Honda,Scoopy,2020,5000,16400000,bensin
+48,Honda,Vario,2022,10000,25500000,bensin
+49,Viar,150,2021,5000,24500000,bensin
+50,Honda,Supra,2007,15000,5750000,bensin
+51,Honda,Supra,2007,30000,5750000,bensin
+52,Viar,Karya,2017,65000,17500000,bensin
+53,Honda,Scoopy,2022,5000,19500000,bensin
+54,Yamaha,Xeon,2011,45000,5850000,bensin
+55,Honda,Beat,2011,5000,7800000,bensin
+56,Honda,Beat,2020,5000,14500000,bensin
+57,Honda,Beat,2018,5000,12500000,bensin
+58,Yamaha,Vixion,2014,5000,11000000,bensin
+59,Honda,Vario,2021,5000,18500000,bensin
+60,Honda,Vario,2016,40000,13250000,bensin
+61,Honda,Vario,2016,40000,10350000,bensin
+62,Honda,Vario,2020,15000,18600000,bensin
+63,Honda,Beat,2022,15000,16250000,bensin
+64,Honda,Beat,2016,35000,11500000,bensin
+65,Honda,Vario,2015,40000,12900000,bensin
+66,Yamaha,Mio,2015,35000,8500000,bensin
+67,Honda,Vario,2021,15000,18500000,bensin
+68,Yamaha,Mio,2023,10000,18600000,bensin
+69,Honda,CBR,2017,25000,39500000,bensin
+70,Kawasaki,ZX,2021,20000,99500000,bensin
+71,Piaggio,Primavera,2023,5000,53000000,bensin
+72,Harley Davidson,Softail,2021,5000,365000000,bensin
+73,Piaggio,Primavera,2023,5000,53000000,bensin
+74,Yamaha,Xmax,2018,30000,45000000,bensin
+75,Honda,Supra,2017,30000,12000000,bensin
+76,Honda,Scoopy,2012,5000,8550000,bensin
+77,Yamaha,Jupiter,2007,55000,6500000,bensin
+78,Yamaha,Jupiter,2012,70000,7000000,bensin
+79,Honda,Beat,2020,15000,13900000,bensin
+80,Honda,Mega pro,2010,30000,10500000,bensin
+81,Honda,Scoopy,2019,5000,15200000,bensin
+82,Honda,Vario,2022,25000,22700000,bensin
+83,Yamaha,Mio,2021,5000,16900000,bensin
+84,Honda,PCX,2020,25000,29700000,bensin
+85,Honda,Scoopy,2020,30000,18500000,bensin
+86,Honda,PCX,2022,5000,30800000,bensin
+87,Yamaha,NMAX,2019,20000,22300000,bensin
+88,Honda,CB 150R,2021,10000,23500000,bensin
+89,Honda,PCX,2019,20000,28500000,bensin
+90,Honda,PCX,2019,20000,28500000,bensin
+91,Honda,Vario,2013,25000,10200000,bensin
+92,Yamaha,Aerox,2019,5000,28500000,bensin
+93,Honda,Vario,2021,15000,18350000,bensin
+94,Yamaha,Aerox,2019,5000,28500000,bensin
+95,Honda,PCX,2019,25000,21900000,bensin
+96,Kawasaki,Ninja 250,2022,10000,59000000,bensin
+97,Harley Davidson,Softail,2021,5000,365000000,bensin
+98,Yamaha,Mio,2009,5000,5800000,bensin
+99,Honda,Supra,2016,20000,10400000,bensin
+100,Honda,Supra,2016,20000,10400000,bensin
+101,Yamaha,Mio,2022,5000,15900000,bensin
+102,Yamaha,Mio,2022,5000,15900000,bensin
+103,Yamaha,Fino,2022,5000,18500000,bensin
+104,Yamaha,Freego,2021,5000,14500000,bensin
+105,Honda,Vario,2020,20000,17950000,bensin
+106,Honda,Beat,2023,5000,17299000,bensin
+107,Kawasaki,Ninja 250,2020,30000,52000000,bensin
+108,Kawasaki,Ninja 250,2020,25000,52000000,bensin
+109,Kawasaki,Ninja 250,2020,30000,52000000,bensin
+110,Honda,Supra,2006,45000,5200000,bensin
+111,Honda,PCX,2021,30000,26300000,bensin
+112,Yamaha,Aerox,2019,5000,28500000,bensin
+113,Yamaha,Aerox,2018,45000,18500000,bensin
+114,Yamaha,NMAX,2018,60000,20500000,bensin
+115,Honda,Beat,2017,35000,12500000,bensin
+116,Honda,Supra,2012,5000,11800000,bensin
+117,Honda,Beat,2015,35000,9900000,bensin
+118,Honda,Vario,2019,20000,17000000,bensin
+119,Honda,Vario,2019,20000,17000000,bensin
+120,Honda,PCX,2014,35000,18750000,bensin
+121,Honda,Vario,2019,20000,17000000,bensin
+122,Honda,CB 150R,2016,10000,16500000,bensin
+123,Honda,Vario,2014,50000,9900000,bensin
+124,Honda,Scoopy,2023,5000,19900000,bensin
+125,Yamaha,Soul GT,2016,25000,10500000,bensin
+126,Honda,PCX,2020,5000,26500000,bensin
+127,Yamaha,Soul GT,2016,20000,10500000,bensin
+128,Honda,Supra,2019,20000,12500000,bensin
+129,Honda,Forza,2019,10000,74000000,bensin
+130,Honda,CB,2015,20000,14500000,bensin
+131,Yamaha,Soul GT,2016,20000,10500000,bensin
+132,Yamaha,NMAX,2021,10000,29000000,bensin
+133,Honda,Beat,2021,20000,14800000,bensin
+134,Yamaha,Fino,2017,25000,12300000,bensin
+135,Honda,Vario,2014,30000,11000000,bensin
+136,Yamaha,Aerox,2022,5000,27500000,bensin
+137,Honda,Scoopy,2022,10000,18500000,bensin
+138,Honda,Scoopy,2021,20000,17250000,bensin
+139,Yamaha,Mio,2017,25000,10000000,bensin
+140,Honda,PCX,2021,20000,28000000,bensin
+141,Honda,Beat,2012,5000,7500000,bensin
+142,Honda,Scoopy,2022,15000,18600000,bensin
+143,Honda,Scoopy,2022,10000,18750000,bensin
+144,Yamaha,Freego,2021,20000,15200000,bensin
+145,Honda,Scoopy,2019,35000,11800000,bensin
+146,Yamaha,Mio,2016,25000,9750000,bensin
+147,Honda,Vario,2018,20000,17700000,bensin
+148,Honda,Vario,2022,10000,25500000,bensin
+149,Honda,Vario,2022,10000,22900000,bensin
+150,Honda,Beat,2020,15000,15500000,bensin
+151,Honda,Vario,2022,10000,21500000,bensin
+152,Yamaha,Mio,2018,20000,10600000,bensin
+153,Honda,Vario,2010,5000,4200000,bensin
+154,Honda,Vario,2010,5000,4200000,bensin
+155,Yamaha,Vixion,2016,5000,8950000,bensin
+156,Honda,Vario,2018,20000,17750000,bensin
+157,Yamaha,NMAX,2022,15000,26000000,bensin
+158,Yamaha,YZF R15,2022,5000,36000000,bensin
+159,Yamaha,YZF R15,2022,5000,36000000,bensin
+160,Harley Davidson,Touring,2020,5000,650000000,bensin
+161,Honda,Supra,1991,300000,4800000,bensin
+162,Yamaha,Mio,2016,25000,9750000,bensin
+163,Yamaha,Mio,2016,20000,9750000,bensin
+164,Yamaha,Vixion,2017,5000,12000000,bensin
+165,Honda,Beat,2011,5000,7800000,bensin
+166,Honda,Beat,2018,5000,12500000,bensin
+167,Honda,Beat,2022,5000,16500000,bensin
+168,Honda,Beat,2019,20000,13000000,bensin
+169,Honda,Beat,2022,5000,16500000,bensin
+170,Benelli,BN,2021,5000,200000000,bensin
+171,Yamaha,Aerox,2021,45000,25000000,bensin
+172,Kawasaki,Ninja KRR,2013,75000,17500000,bensin
+173,Honda,Sonic,2020,25000,13000000,bensin
+174,Yamaha,Vega R,2004,5000,4000000,bensin
+175,Kawasaki,Ninja 250,2023,40000,29000000,bensin
+176,Yamaha,Mio,2008,15000,4200000,bensin
+177,Honda,CBR,2014,45000,15800000,bensin
+178,Honda,Scoopy,2022,15000,19800000,bensin
+179,Honda,Vario,2016,15000,19000000,bensin
+180,Kawasaki,ZX,2021,20000,99500000,bensin
+181,Honda,Vario,2021,45000,18500000,bensin
+182,Honda,PCX,2018,30000,21850000,bensin
+183,Yamaha,Freego,2023,10000,26000000,bensin
+184,Yamaha,Vega R,2008,90000,4600000,bensin
+185,Yamaha,MT 25,2019,5000,45500000,bensin
+186,Yamaha,MT 25,2019,5000,45500000,bensin
+187,Yamaha,Vixion,2016,5000,8950000,bensin
+188,Honda,PCX,2022,10000,28800000,bensin
+189,Yamaha,Jupiter,2023,5000,25500000,bensin
+190,Honda,CBR,2019,5000,25500000,bensin
+191,Kawasaki,Ninja 250,2015,5000,37500000,bensin
+192,Honda,CBR,2022,5000,61000000,bensin
+193,Kawasaki,W800,2020,10000,26000000,bensin
+194,Kawasaki,W800,2020,5000,26000000,bensin
+195,Yamaha,Freego,2021,20000,15200000,bensin
+196,Suzuki,Satria,2016,15000,15000000,bensin
+197,Yamaha,Soul GT,2016,20000,10500000,bensin
+198,Honda,CBR,2017,5000,21500000,bensin
+199,Suzuki,GSX,2018,5000,19800000,bensin
+200,Honda,Vario,2014,95000,9100000,bensin
+201,Kawasaki,Ninja 250,2015,5000,21500000,bensin
+202,Kawasaki,Ninja 250,2019,15000,48000000,bensin
+203,Honda,Beat,2020,5000,14600000,bensin
+204,Kawasaki,Ninja 250,2019,20000,48000000,bensin
+205,Honda,Sonic,2018,5000,16500000,bensin
+206,Honda,Vario,2015,20000,15500000,bensin
+207,Piaggio,Sprint,2022,5000,52900000,bensin
+208,Yamaha,YZF R15,2022,5000,36000000,bensin
+209,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+210,Kawasaki,Ninja 250,2018,10000,43000000,bensin
+211,Honda,Vario,2023,5000,21300000,bensin
+212,Honda,Beat,2023,5000,18200000,bensin
+213,Honda,Sonic,2018,15000,16500000,bensin
+214,Yamaha,YZF R15,2022,5000,36000000,bensin
+215,Honda,Scoopy,2021,10000,17750000,bensin
+216,Honda,Vario,2020,5000,19700000,bensin
+217,Honda,Vario,2017,5000,16400000,bensin
+218,Honda,CB 150R,2021,30000,24500000,bensin
+219,Yamaha,Fino,2018,5000,12900000,bensin
+220,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+221,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+222,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+223,Honda,Vario,2021,30000,22000000,bensin
+224,Yamaha,Aerox,2018,5000,18750000,bensin
+225,Honda,PCX,2022,20000,31400000,bensin
+226,Honda,Beat,2023,5000,18200000,bensin
+227,Honda,Scoopy,2023,5000,20700000,bensin
+228,Honda,Beat,2018,70000,14200000,bensin
+229,Honda,PCX,2020,25000,29700000,bensin
+230,Honda,Scoopy,2020,30000,18500000,bensin
+231,Harley Davidson,Touring,2020,5000,725000000,bensin
+232,Harley Davidson,Touring,2013,10000,485000000,bensin
+233,Yamaha,Xabre,2020,10000,29750000,bensin
+234,Honda,CB 150R,2022,10000,25850000,bensin
+235,Yamaha,YZF R15,2015,25000,13250000,bensin
+236,Honda,CB 150R,2020,5000,21000000,bensin
+237,Honda,Vario,2017,5000,15900000,bensin
+238,Honda,CB 150R,2019,5000,19500000,bensin
+239,Honda,CBR,2019,15000,23500000,bensin
+240,Honda,Scoopy,2018,25000,15100000,bensin
+241,Honda,Scoopy,2022,10000,18750000,bensin
+242,Honda,Vario,2017,35000,15900000,bensin
+243,Honda,Scoopy,2021,15000,17700000,bensin
+244,Honda,CBR,2023,15000,28900000,bensin
+245,Honda,Beat,2021,30000,15100000,bensin
+246,Honda,Beat,2021,15000,14800000,bensin
+247,Honda,CBR,2022,30000,27500000,bensin
+248,Kawasaki,Ninja 250,2013,15000,27500000,bensin
+249,Yamaha,NMAX,2022,20000,26500000,bensin
+250,Yamaha,YZF R15,2023,10000,33800000,bensin
+251,Honda,PCX,2021,15000,29500000,bensin
+252,Kawasaki,Ninja 250,2016,50000,33300000,bensin
+253,Yamaha,Mio,2018,5000,12500000,bensin
+254,Suzuki,Shooter,2014,5000,5750000,bensin
+255,Honda,Sonic,2021,5000,18400000,bensin
+256,Honda,Vario,2017,20000,16500000,bensin
+257,Honda,Vario,2017,50000,17800000,bensin
+258,Yamaha,YZF R15,2015,25000,13250000,bensin
+259,Suzuki,Shogun,2005,300000,4300000,bensin
+260,Honda,Beat,2016,35000,10100000,bensin
+261,Yamaha,Xeon,2015,25000,9000000,bensin
+262,Yamaha,NMAX,2019,30000,21300000,bensin
+263,Honda,Scoopy,2018,35000,14300000,bensin
+264,Honda,Beat,2023,10000,16900000,bensin
+265,Honda,Beat,2022,15000,15500000,bensin
+266,Honda,PCX,2021,25000,26250000,bensin
+267,Yamaha,NMAX,2021,25000,22600000,bensin
+268,Honda,Beat,2015,45000,10000000,bensin
+269,Honda,Vario,2017,35000,13900000,bensin
+270,Honda,Beat,2019,65000,13200000,bensin
+271,Honda,CBR,2019,30000,22300000,bensin
+272,Honda,Scoopy,2018,5000,14500000,bensin
+273,Honda,Beat,2011,5000,7800000,bensin
+274,Honda,Beat,2018,5000,12500000,bensin
+275,Yamaha,Vixion,2017,5000,12000000,bensin
+276,Yamaha,Vixion,2014,5000,11000000,bensin
+277,Honda,PCX,2020,25000,29700000,bensin
+278,Honda,Scoopy,2020,25000,18500000,bensin
+279,Honda,Beat,2014,105000,8000000,bensin
+280,Yamaha,Aerox,2017,65000,16000000,bensin
+281,Honda,CBR,2017,25000,39500000,bensin
+282,Yamaha,Freego,2022,5000,19800000,bensin
+283,Honda,Beat,2023,5000,18200000,bensin
+284,Honda,Scoopy,2023,5000,20700000,bensin
+285,Honda,CBR,2016,5000,18800000,bensin
+286,Yamaha,Byson,2016,5000,13000000,bensin
+287,Yamaha,Fino,2021,5000,17700000,bensin
+288,Honda,Astrea,1996,300000,5000000,bensin
+289,Honda,kharisma,2004,20000,4000000,bensin
+290,Kawasaki,Ninja 250,2017,10000,42000000,bensin
+291,Piaggio,Sprint,2019,15000,45000000,bensin
+292,Kawasaki,Ninja 250,2017,10000,42000000,bensin
+293,Honda,Beat,2022,5000,16500000,bensin
+294,Honda,Scoopy,2016,25000,11500000,bensin
+295,Honda,NSR,1991,30000,400000000,bensin
+296,Kawasaki,ZX,2011,20000,250000000,bensin
+297,Honda,Scoopy,2019,5000,14300000,bensin
+298,Honda,Sonic,2015,50000,12500000,bensin
+299,Honda,Sonic,2015,50000,12500000,bensin
+300,Honda,CBR,2017,25000,17600000,bensin
+301,Honda,Sonic,2015,50000,12500000,bensin
+302,Honda,CBR,2023,5000,33500000,bensin
+303,Honda,Sonic,2015,50000,12500000,bensin
+304,Yamaha,NMAX,2020,20000,27000000,bensin
+305,Yamaha,NMAX,2020,20000,27000000,bensin
+306,Yamaha,NMAX,2020,20000,27000000,bensin
+307,Yamaha,NMAX,2020,20000,27000000,bensin
+308,Kawasaki,Ninja 250,2019,15000,41000000,bensin
+309,Honda,Supra,2018,25000,14000000,bensin
+310,Honda,Supra,2018,25000,14000000,bensin
+311,Honda,Vario,2018,20000,18500000,bensin
+312,Kawasaki,Ninja 250,2019,15000,41000000,bensin
+313,Honda,CBR,2012,15000,26000000,bensin
+314,Honda,CBR,2016,25000,16600000,bensin
+315,Honda,CBR,2023,5000,33500000,bensin
+316,Honda,Beat,2023,5000,18400000,bensin
+317,Honda,Scoopy,2016,40000,12000000,bensin
+318,Yamaha,Aerox,2018,50000,23800000,bensin
+319,Honda,Beat,2020,35000,16200000,bensin
+320,Honda,Vario,2019,40000,20400000,bensin
+321,Honda,Beat,2021,30000,16900000,bensin
+322,Honda,PCX,2022,20000,31400000,bensin
+323,Honda,CB 150R,2017,15000,16500000,bensin
+324,Yamaha,Vixion,2016,5000,8950000,bensin
+325,Kawasaki,D-Tracker,2018,15000,23500000,bensin
+326,Honda,PCX,2021,10000,28000000,bensin
+327,Honda,Beat,2014,5000,8500000,bensin
+328,Honda,Beat,2014,5000,8500000,bensin
+329,Honda,Scoopy,2022,5000,19800000,bensin
+330,Yamaha,YZF R15,2018,5000,26500000,bensin
+331,Yamaha,NMAX,2021,20000,26500000,bensin
+332,Yamaha,Aerox,2017,25000,19800000,bensin
+333,Yamaha,YZF R15,2023,5000,26500000,bensin
+334,Yamaha,NMAX,2021,20000,26500000,bensin
+335,Yamaha,YZF R15,2023,5000,37000000,bensin
+336,Yamaha,Grizzly,2021,50000,11750000,bensin
+337,Yamaha,YZF R15,2021,15000,28500000,bensin
+338,Honda,CBR,2018,15000,23000000,bensin
+339,Yamaha,Xeon,2014,5000,8600000,bensin
+340,Yamaha,Xabre,2016,5000,20500000,bensin
+341,Yamaha,Xabre,2016,5000,20500000,bensin
+342,Yamaha,Xabre,2016,5000,20500000,bensin
+343,Yamaha,Freego,2022,5000,20500000,bensin
+344,Yamaha,NMAX,2020,30000,23500000,bensin
+345,Honda,CBR,2010,30000,25000000,bensin
+346,Yamaha,NMAX,2020,35000,23950000,bensin
+347,Honda,Beat,2021,20000,14950000,bensin
+348,Honda,PCX,2019,25000,21950000,bensin
+349,Honda,Beat,2021,25000,14850000,bensin
+350,Yamaha,Scorpio,2012,35000,13900000,bensin
+351,Honda,Vario,2016,30000,13350000,bensin
+352,Honda,Vario,2015,35000,12900000,bensin
+353,Honda,Vario,2015,40000,13500000,bensin
+354,Honda,Beat,2016,35000,10750000,bensin
+355,Honda,Beat,2016,45000,11000000,bensin
+356,Honda,Beat,2015,60000,10100000,bensin
+357,Honda,Scoopy,2016,25000,12500000,bensin
+358,Yamaha,NMAX,2020,30000,23750000,bensin
+359,Honda,CBR,2017,30000,16500000,bensin
+360,Honda,Scoopy,2022,10000,18300000,bensin
+361,Yamaha,NMAX,2019,30000,20800000,bensin
+362,Yamaha,Vixion,2017,5000,12000000,bensin
+363,Honda,Scoopy,2022,10000,18600000,bensin
+364,Honda,Vario,2021,25000,20500000,bensin
+365,Honda,Scoopy,2018,20000,15500000,bensin
+366,Honda,Scoopy,2018,5000,14500000,bensin
+367,Honda,Beat,2023,5000,17000000,bensin
+368,Honda,Beat,2011,5000,7800000,bensin
+369,Honda,Beat,2017,5000,16500000,bensin
+370,Kawasaki,Ninja R,2015,50000,45000000,bensin
+371,Honda,Beat,2017,50000,12500000,bensin
+372,Harley Davidson,Touring,2016,5000,450000000,bensin
+373,Kawasaki,Versys,2023,5000,75000000,bensin
+374,Honda,CB,2016,35000,14500000,bensin
+375,Piaggio,Primavera,2023,5000,45000000,bensin
+376,Harley Davidson,Street,2021,5000,625000000,bensin
+377,BMW,R1200GS,2020,5000,515000000,bensin
+378,Ducati,Monster 696,2012,15000,140000000,bensin
+379,Harley Davidson,Touring,2021,5000,725000000,bensin
+380,Honda,CBR,2023,5000,61000000,bensin
+381,KTM,Duke,2018,25000,35000000,bensin
+382,Piaggio,Vespa,1986,105000,22000000,bensin
+383,Kawasaki,Z Series,2013,15000,37500000,bensin
+384,Harley Davidson,Touring,2019,10000,525000000,bensin
+385,Kawasaki,Estrella,2019,10000,23250000,bensin
+386,Piaggio,Vespa,1986,300000,85000000,bensin
+387,Yamaha,F 1 ZR,2002,20000,11000000,bensin
+388,Yamaha,F 1 ZR,1999,25000,9900000,bensin
+389,Yamaha,NMAX,2019,55000,21000000,bensin
+390,Honda,CB 150R,2018,30000,16000000,bensin
+391,Yamaha,R1,2014,15000,350000000,bensin
+392,Honda,Beat,2023,5000,16250000,bensin
+393,Kawasaki,Ninja,2022,5000,135000000,bensin
+394,Yamaha,NMAX,2022,55000,27500000,bensin
+395,Piaggio,Sprint,2022,5000,48500000,bensin
+396,Lain-lain,Lain-lain,2021,10000,90000000,bensin
+397,Benelli,Patagonian Eagle,2021,25000,60000000,bensin
+398,Piaggio,Vespa,1986,5000,90000000,bensin
+399,Honda,Beat,2016,30000,11500000,bensin
+400,Harley Davidson,V-Rod,2010,10000,365000000,bensin
+401,Kawasaki,Ninja R,2019,30000,20500000,bensin
+402,Kawasaki,KLX,2021,10000,28500000,bensin
+403,Honda,Vario,2021,25000,20500000,bensin
+404,Honda,Vario,2020,15000,18500000,bensin
+405,Yamaha,Xmax,2018,15000,46000000,bensin
+406,Honda,Scoopy,2018,35000,14000000,bensin
+407,Honda,Scoopy,2023,10000,19000000,bensin
+408,Honda,Vario,2019,30000,18500000,bensin
+409,Honda,Beat,2019,30000,14000000,bensin
+410,Yamaha,Xeon,2015,35000,9000000,bensin
+411,Honda,Impressa,1995,30000,10500000,bensin
+412,Honda,Beat,2022,15000,16000000,bensin
+413,Yamaha,NMAX,2022,5000,29800000,bensin
+414,Honda,CBR,2019,5000,24500000,bensin
+415,Yamaha,Freego,2021,5000,14500000,bensin
+416,Honda,Scoopy,2023,10000,19800000,bensin
+417,Honda,CBR,2023,5000,33500000,bensin
+418,Yamaha,Soul GT,2016,20000,10500000,bensin
+419,Yamaha,Freego,2021,20000,15200000,bensin
+420,Yamaha,Freego,2021,20000,15200000,bensin
+421,Yamaha,Vixion,2016,5000,8950000,bensin
+422,Honda,Vario,2014,45000,10000000,bensin
+423,Honda,Scoopy,2021,40000,16800000,bensin
+424,Yamaha,RX,1986,300000,7999999,bensin
+425,Honda,Scoopy,2018,35000,14000000,bensin
+426,Honda,Scoopy,2018,35000,14000000,bensin
+427,Yamaha,MT 25,2019,5000,45500000,bensin
+428,Yamaha,MT 25,2019,5000,45500000,bensin
+429,Kawasaki,Ninja 250,2018,5000,47500000,bensin
+430,Honda,Beat,2018,70000,13900000,bensin
+431,Honda,PCX,2020,25000,29700000,bensin
+432,Honda,Scoopy,2020,30000,18500000,bensin
+433,Honda,Beat,2017,30000,12500000,bensin
+434,Harley Davidson,Street,2014,25000,395000000,bensin
+435,Honda,Supra,2011,25000,9250000,bensin
+436,Honda,Supra,2011,20000,9250000,bensin
+437,Piaggio,Primavera,2020,20000,44990000,bensin
+438,Piaggio,Sprint,2021,5000,58850000,bensin
+439,Piaggio,Primavera,2020,5000,60000000,bensin
+440,Yamaha,Vixion,2015,60000,11000000,bensin
+441,Honda,CBR,2019,10000,24500000,bensin
+442,Honda,Vario,2021,20000,19250000,bensin
+443,Honda,Vario,2021,20000,19250000,bensin
+444,Honda,Beat,2021,20000,16700000,bensin
+445,Kawasaki,ZX,2023,5000,385000000,bensin
+446,Honda,CB 150R,2016,5000,16500000,bensin
+447,Honda,CB 150R,2016,5000,16500000,bensin
+448,Honda,CBR,2016,15000,16500000,bensin
+449,Yamaha,Mio,2022,5000,14500000,bensin
+450,Yamaha,Mio,2018,5000,10900000,bensin
+451,Honda,Tiger,2012,5000,31000000,bensin
+452,Honda,Beat,2021,20000,16500000,bensin
+453,Piaggio,Primavera,2023,5000,53000000,bensin
+454,Piaggio,Primavera,2023,5000,53000000,bensin
+455,Yamaha,NMAX,2023,5000,31300000,bensin
+456,Lain-lain,Lain-lain,2020,15000,20500000,bensin
+457,Honda,Vario,2017,70000,14500000,bensin
+458,Honda,CRF250Rally,2023,5000,32899000,bensin
+459,Yamaha,NMAX,2021,25000,27000000,bensin
+460,Honda,CB 150R,2015,80000,4500000,bensin
+461,Yamaha,NMAX,2021,45000,25500000,bensin
+462,Honda,Vario,2020,30000,20000000,bensin
+463,Honda,Vario,2020,30000,20000000,bensin
+464,Honda,Vario,2020,30000,20000000,bensin
+465,Yamaha,Aerox,2017,20000,20000000,bensin
+466,Yamaha,Aerox,2017,20000,20000000,bensin
+467,Honda,Vario,2020,30000,20000000,bensin
+468,Honda,Vario,2020,30000,20000000,bensin
+469,Honda,Vario,2020,30000,20000000,bensin
+470,Honda,PCX,2019,20000,28500000,bensin
+471,Honda,Scoopy,2020,20000,18500000,bensin
+472,Honda,Scoopy,2020,20000,18500000,bensin
+473,Honda,Supra,2016,20000,10500000,bensin
+474,Kawasaki,Ninja 250,2022,10000,59000000,bensin
+475,Kawasaki,Ninja 250,2022,10000,59000000,bensin
+476,Honda,Scoopy,2020,20000,18500000,bensin
+477,Honda,Scoopy,2020,20000,18500000,bensin
+478,Honda,Scoopy,2020,20000,18500000,bensin
+479,Honda,Scoopy,2020,20000,18500000,bensin
+480,Honda,Vario,2014,30000,12500000,bensin
+481,Kawasaki,Ninja 250,2020,25000,42000000,bensin
+482,Honda,Vario,2014,30000,12500000,bensin
+483,Honda,Vario,2014,30000,12500000,bensin
+484,Honda,Vario,2014,30000,12500000,bensin
+485,Honda,Vario,2014,30000,12500000,bensin
+486,Honda,Vario,2014,30000,12500000,bensin
+487,Yamaha,Aerox,2019,5000,28500000,bensin
+488,Honda,Beat,2017,5000,13500000,bensin
+489,Honda,Forza,2019,10000,74000000,bensin
+490,Honda,PCX,2019,30000,23000000,bensin
+491,Honda,Vario,2014,30000,11500000,bensin
+492,Yamaha,NMAX,2021,10000,29000000,bensin
+493,Yamaha,Mio,2016,55000,8250000,bensin
+494,Yamaha,NMAX,2021,10000,29000000,bensin
+495,Yamaha,Soul GT,2016,25000,10500000,bensin
+496,Honda,Vario,2015,30000,10200000,bensin
+497,Yamaha,Freego,2021,20000,15200000,bensin
+498,Yamaha,Vixion,2013,15000,10850000,bensin
+499,Yamaha,YZF R15,2022,5000,36000000,bensin
+500,Kawasaki,Ninja,2013,5000,50500000,bensin
+501,Honda,Beat,2015,55000,10850000,bensin
+502,Kawasaki,ZX,1999,30000,55000000,bensin
+503,Harley Davidson,Sportster,2013,25000,235000000,bensin
+504,Yamaha,YZF R25,2016,35000,33800000,bensin
+505,Kawasaki,Ninja 250,2018,20000,48000000,bensin
+506,Kawasaki,Ninja 250,2022,5000,28500000,bensin
+507,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+508,Honda,Vario,2011,25000,8350000,bensin
+509,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+510,Kawasaki,Ninja 250,2018,10000,43000000,bensin
+511,Honda,Scoopy,2021,15000,17750000,bensin
+512,Honda,CBR,2023,5000,61000000,bensin
+513,Honda,CBR,2023,5000,61000000,bensin
+514,Honda,CBR,2023,5000,61000000,bensin
+515,Honda,CRF250Rally,2023,10000,31420000,bensin
+516,Honda,Vario,2020,5000,19700000,bensin
+517,Honda,CB 150R,2021,30000,24500000,bensin
+518,Honda,CB 150R,2021,30000,24500000,bensin
+519,Honda,CB 150R,2021,30000,24500000,bensin
+520,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+521,Honda,Vario,2018,25000,16800000,bensin
+522,Honda,Vario,2018,20000,16800000,bensin
+523,Piaggio,LX,2019,10000,33500000,bensin
+524,Yamaha,YZF R15,2015,25000,13250000,bensin
+525,Kawasaki,Z Series,2022,5000,410000000,bensin
+526,Yamaha,NMAX,2019,15000,23000000,bensin
+527,Honda,Beat,2018,40000,12400000,bensin
+528,Honda,Beat,2023,5000,18200000,bensin
+529,Honda,Scoopy,2023,5000,20700000,bensin
+530,Yamaha,Mio,2014,85000,7600000,bensin
+531,Honda,Supra,2016,25000,11800000,bensin
+532,Honda,Beat,2019,15000,13000000,bensin
+533,Honda,Beat,2021,15000,14800000,bensin
+534,Yamaha,Fino,2024,5000,26500000,bensin
+535,Yamaha,Mio,2021,15000,16000000,bensin
+536,Honda,CB 150R,2016,5000,16500000,bensin
+537,Kawasaki,Ninja 250,2016,5000,33900000,bensin
+538,Yamaha,Byson,2012,5000,19000000,bensin
+539,Yamaha,Xeon,2015,60000,9250000,bensin
+540,Yamaha,Xeon,2014,80000,9000000,bensin
+541,Yamaha,Xeon,2014,100000,8500000,bensin
+542,Yamaha,Xeon,2013,100000,8200000,bensin
+543,Yamaha,Xeon,2014,80000,8550000,bensin
+544,Kawasaki,W800,2021,5000,27900000,bensin
+545,Kawasaki,Z Series,2017,35000,35000000,bensin
+546,Kawasaki,Z Series,2013,50000,22500000,bensin
+547,Honda,CB,2022,25000,27000000,bensin
+548,Yamaha,WR 250,2020,25000,26500000,bensin
+549,Kawasaki,Ninja ER-6N,2013,20000,64500000,bensin
+550,BMW,R NineT,2016,15000,335000000,bensin
+551,Yamaha,Vixion,2014,5000,10000000,bensin
+552,Benelli,BN,2017,20000,29500000,bensin
+553,Piaggio,Sprint,2022,5000,50950000,bensin
+554,Honda,Beat,2018,5000,15400000,bensin
+555,Suzuki,Shogun,2002,105000,4000000,bensin
+556,Yamaha,Fino,2023,5000,21800000,bensin
+557,Kawasaki,Z Series,2015,15000,30000000,bensin
+558,Honda,Vario,2016,5000,17700000,bensin
+559,Honda,Vario,2022,20000,22700000,bensin
+560,Honda,Beat,2009,25000,6800000,bensin
+561,Honda,Supra,2016,20000,10400000,bensin
+562,Honda,Scoopy,2016,5000,13800000,bensin
+563,Yamaha,YZF R15,2014,5000,16500000,bensin
+564,Honda,Supra,2004,55000,5000000,bensin
+565,Honda,Beat,2013,5000,9500000,bensin
+566,Honda,Vario,2022,10000,26500000,bensin
+567,Kawasaki,Ninja 250,2022,10000,59000000,bensin
+568,Lain-lain,Lain-lain,2022,5000,55000000,bensin
+569,Honda,Vario,2017,85000,13750000,bensin
+570,Piaggio,LX,2013,15000,23000000,bensin
+571,Honda,Vario,2020,20000,17950000,bensin
+572,Honda,Beat,2022,10000,17800000,bensin
+573,Honda,Vario,2015,5000,12500000,bensin
+574,Honda,CBR,2023,5000,33500000,bensin
+575,Yamaha,YZF R15,2015,5000,17000000,bensin
+576,Honda,Forza,2019,10000,74000000,bensin
+577,Honda,Vario,2014,25000,11500000,bensin
+578,Yamaha,NMAX,2021,10000,29000000,bensin
+579,Yamaha,Freego,2019,20000,16500000,bensin
+580,Yamaha,Fino,2022,20000,19000000,bensin
+581,Honda,Vario,2020,55000,19500000,bensin
+582,Honda,Beat,2014,50000,8000000,bensin
+583,Honda,Beat,2015,35000,10000000,bensin
+584,Honda,Supra,2017,20000,11800000,bensin
+585,Honda,PCX,2019,20000,26500000,bensin
+586,Yamaha,Mio,2009,100000,4900000,bensin
+587,Honda,Revo,2020,15000,10000000,bensin
+588,Honda,CBR,2017,25000,39500000,bensin
+589,Kawasaki,ZX,2021,20000,99500000,bensin
+590,KTM,RC,2019,10000,280000000,bensin
+591,Suzuki,Satria,2013,25000,7450000,bensin
+592,Yamaha,NMAX,2021,25000,27500000,bensin
+593,Honda,PCX,2021,5000,28000000,bensin
+594,Yamaha,MT 25,2019,5000,45500000,bensin
+595,Piaggio,Vespa,1986,115000,40000000,bensin
+596,Honda,CBR,2022,5000,61000000,bensin
+597,Harley Davidson,Touring,2021,5000,675000000,bensin
+598,Suzuki,GSX,2018,5000,19800000,bensin
+599,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+600,Honda,Scoopy,2021,15000,17750000,bensin
+601,Honda,Scoopy,2021,10000,17750000,bensin
+602,Honda,Supra,2022,15000,20500000,bensin
+603,Lain-lain,Lain-lain,2016,5000,10000000,bensin
+604,Yamaha,Xmax,2022,15000,32000000,bensin
+605,Honda,PCX,2020,5000,25500000,bensin
+606,Honda,Vario,2022,5000,19800000,bensin
+607,Kawasaki,Ninja 250,2020,5000,28500000,bensin
+608,Yamaha,Jupiter,2001,40000,4000000,bensin
+609,Honda,Beat,2022,20000,15850000,bensin
+610,Honda,Beat,2019,300000,11000000,bensin
+611,Honda,Beat,2019,55000,13500000,bensin
+612,Yamaha,Freego,2020,5000,16500000,bensin
+613,Yamaha,YZF R15,2015,25000,13250000,bensin
+614,Honda,Supra,2017,60000,9750000,bensin
+615,Suzuki,Shogun,2010,75000,6500000,bensin
+616,Yamaha,Fazer,2022,5000,19950000,bensin
+617,Honda,Scoopy,2019,20000,13000000,bensin
+618,Kawasaki,Ninja ER-6N,2013,20000,64500000,bensin
+619,Honda,CBR,2017,25000,39500000,bensin
+620,Yamaha,WR 250,2020,25000,26500000,bensin
+621,Honda,Vario,2017,25000,16500000,bensin
+622,Kawasaki,Z Series,2013,40000,28500000,bensin
+623,Honda,CBR,2017,25000,17600000,bensin
+624,Honda,CBR,2023,5000,33500000,bensin
+625,Kawasaki,Ninja 250,2019,15000,41000000,bensin
+626,Honda,CBR,2016,20000,16600000,bensin
+627,Honda,Beat,2022,5000,17000000,bensin
+628,Honda,CBR,2019,15000,20000000,bensin
+629,Honda,CB 150R,2016,5000,13500000,bensin
+630,Honda,CB 150R,2016,5000,13500000,bensin
+631,Honda,Vario,2018,20000,18500000,bensin
+632,Yamaha,YZF R15,2018,15000,26500000,bensin
+633,Yamaha,YZF R15,2023,5000,37000000,bensin
+634,Yamaha,NMAX,2019,45000,24300000,bensin
+635,Yamaha,Soul GT,2016,35000,11000000,bensin
+636,Yamaha,Xabre,2016,5000,20500000,bensin
+637,Kawasaki,Ninja 250,2018,15000,47500000,bensin
+638,Honda,Vario,2017,35000,15500000,bensin
+639,Yamaha,NMAX,2017,30000,19700000,bensin
+640,Honda,Revo,2020,5000,12500000,bensin
+641,Honda,PCX,2019,25000,22500000,bensin
+642,Honda,Beat,2018,45000,12200000,bensin
+643,Honda,Vario,2018,20000,16500000,bensin
+644,Honda,PCX,2019,25000,22500000,bensin
+645,Honda,Vario,2013,15000,10500000,bensin
+646,Yamaha,Fino,2008,35000,34950000,bensin
+647,Piaggio,Vespa,1986,10000,32000000,bensin
+648,Honda,Scoopy,2018,40000,15500000,bensin
+649,Honda,Beat,2022,5000,16000000,bensin
+650,Yamaha,Vixion,2015,120000,13500000,bensin
+651,Honda,Vario,2010,5000,4200000,bensin
+652,Yamaha,YZF R15,2023,5000,36500000,bensin
+653,Honda,CRF250Rally,2022,15000,33500000,bensin
+654,Honda,CBR,2018,5000,23000000,bensin
+655,Honda,CB 150R,2017,15000,18500000,bensin
+656,BMW,S 1000,2022,5000,460000000,bensin
+657,Honda,Beat,2013,10000,8700000,bensin
+658,Yamaha,Aerox,2017,40000,18000000,bensin
+659,Yamaha,Scorpio,2011,55000,10000000,bensin
+660,Kawasaki,Z Series,2022,5000,480000000,bensin
+661,Yamaha,NMAX,2017,20000,19700000,bensin
+662,Yamaha,Aerox,2017,15000,19800000,bensin
+663,Aprilia,RS Sport,2022,5000,290000000,bensin
+664,Harley Davidson,Sportster,2010,25000,295000000,bensin
+665,Honda,CBR,2020,15000,25000000,bensin
+666,Ducati,Diavel Carbon,2012,5000,350000000,bensin
+667,Harley Davidson,Softail,2019,10000,675000000,bensin
+668,Kawasaki,ZX,2023,5000,480000000,bensin
+669,Harley Davidson,Touring,2023,5000,710000000,bensin
+670,Harley Davidson,Touring,2013,20000,510000000,bensin
+671,Ducati,Panigale,2022,5000,535000000,bensin
+672,Kawasaki,ZX,2019,15000,350000000,bensin
+673,Harley Davidson,Sportster,2019,10000,475000000,bensin
+674,Suzuki,GSX,2017,20000,18500000,bensin
+675,Kawasaki,ZX,2023,5000,390000000,bensin
+676,Yamaha,Jupiter,2014,85000,10500000,bensin
+677,Lain-lain,Lain-lain,2018,5000,450000000,bensin
+678,Honda,CBR,2023,5000,73000000,bensin
+679,Lain-lain,Lain-lain,2021,5000,455000000,bensin
+680,Piaggio,Vespa,2023,5000,390000000,bensin
+681,Piaggio,GTS,2022,5000,75000000,bensin
+682,BMW,R NineT,2019,5000,330000000,bensin
+683,Honda,Forza,2018,10000,72000000,bensin
+684,Honda,Monkey,2021,5000,80000000,bensin
+685,Honda,Monkey,2023,5000,89000000,bensin
+686,Ducati,Diavel Carbon,2012,15000,475000000,bensin
+687,Yamaha,Xmax,2023,5000,68500000,bensin
+688,Honda,Monkey,2023,5000,96000000,bensin
+689,Honda,Little Cub,2023,5000,38000000,bensin
+690,Honda,Monkey,2023,5000,96000000,bensin
+691,Honda,Little Cub,2023,5000,38000000,bensin
+692,Honda,Zoomer,2023,5000,38000000,bensin
+693,Yamaha,Fino,2021,5000,92500000,bensin
+694,Piaggio,Vespa,1986,5000,465000000,bensin
+695,Yamaha,YZF R25,2019,5000,80000000,bensin
+696,Honda,Forza,2019,10000,74000000,bensin
+697,Piaggio,Vespa,1986,5000,130000000,bensin
+698,Piaggio,Vespa,1986,5000,65000000,bensin
+699,Piaggio,Vespa,1986,5000,70000000,bensin
+700,Piaggio,Vespa,1986,5000,130000000,bensin
+701,Honda,Beat,2019,5000,15900000,bensin
+702,Piaggio,Vespa,1986,5000,335000000,bensin
+703,Piaggio,Vespa,1986,5000,675000000,bensin
+704,Piaggio,Vespa,1986,5000,117500000,bensin
+705,Kawasaki,Z Series,2014,25000,15500000,bensin
+706,Honda,Supra,2019,5000,12500000,bensin
+707,Yamaha,YZF R15,2014,5000,16500000,bensin
+708,Honda,Revo,2019,40000,8500000,bensin
+709,Yamaha,NMAX,2021,10000,28500000,bensin
+710,Suzuki,Nex,2018,40000,9700000,bensin
+711,Honda,Vario,2022,5000,25500000,bensin
+712,Honda,CB 150R,2019,15000,17250000,bensin
+713,Yamaha,Mio,2022,5000,16900000,bensin
+714,Honda,Scoopy,2021,15000,19000000,bensin
+715,Honda,Revo,2012,5000,8000000,bensin
+716,Yamaha,Soul GT,2012,35000,7500000,bensin
+717,Honda,CRF250Rally,2023,5000,31300000,bensin
+718,Honda,Beat,2023,5000,17000000,bensin
+719,Yamaha,Aerox,2019,15000,22000000,bensin
+720,Yamaha,NMAX,2021,10000,29500000,bensin
+721,Yamaha,Xmax,2017,15000,44500000,bensin
+722,Yamaha,Mio,2011,25000,5950000,bensin
+723,Yamaha,Freego,2022,15000,20500000,bensin
+724,Honda,Vario,2013,25000,11300000,bensin
+725,Yamaha,NMAX,2022,10000,26500000,bensin
+726,Honda,PCX,2019,20000,25000000,bensin
+727,Honda,Vario,2019,45000,17600000,bensin
+728,Suzuki,Shogun,1997,60000,6900000,bensin
+729,Honda,CBR,2019,5000,24000000,bensin
+730,Honda,Beat,2014,5000,9800000,bensin
+731,Yamaha,YZF R15,2018,10000,23000000,bensin
+732,Yamaha,Lexi,2019,5000,15500000,bensin
+733,Yamaha,Aerox,2019,15000,22000000,bensin
+734,Honda,CB 150R,2020,5000,21000000,bensin
+735,Honda,Vario,2018,20000,16500000,bensin
+736,Honda,Beat,2022,35000,14500000,bensin
+737,Honda,Beat,2021,15000,16900000,bensin
+738,Kawasaki,Estrella,2020,35000,22750000,bensin
+739,Yamaha,Mio,2008,60000,5000000,bensin
+740,Honda,Supra,2011,25000,10000000,bensin
+741,Honda,Supra,2018,5000,14800000,bensin
+742,Yamaha,Mio,2021,10000,16900000,bensin
+743,Kawasaki,Ninja 250,2019,5000,49000000,bensin
+744,Honda,Spacy,2012,70000,6900000,bensin
+745,Suzuki,GSX,2022,20000,18500000,bensin
+746,Honda,CB 150R,2017,15000,18500000,bensin
+747,Yamaha,NMAX,2017,25000,19700000,bensin
+748,Honda,CBR,2020,15000,25000000,bensin
+749,Honda,PCX,2021,35000,27000000,bensin
+750,Honda,Beat,2023,20000,17000000,bensin
+751,Honda,Vario,2008,85000,5000000,bensin
+752,Yamaha,Lexi,2022,15000,22000000,bensin
+753,Honda,Beat,2023,10000,17300000,bensin
+754,Honda,Vario,2023,5000,21300000,bensin
+755,Honda,Vario,2022,5000,24500000,bensin
+756,Yamaha,Fino,2019,25000,13500000,bensin
+757,Honda,Scoopy,2021,5000,17900000,bensin
+758,Yamaha,Fino,2019,20000,13500000,bensin
+759,Aprilia,Aprilia SR,2022,5000,50000000,bensin
+760,Honda,Vario,2014,45000,10500000,bensin
+761,Honda,Scoopy,2022,15000,19750000,bensin
+762,Yamaha,Vixion,2015,55000,13750000,bensin
+763,Honda,Beat,2022,10000,17800000,bensin
+764,Honda,Beat,2021,5000,16500000,bensin
+765,Honda,Beat,2021,45000,13200000,bensin
+766,Honda,PCX,2022,20000,31400000,bensin
+767,Honda,Beat,2020,35000,16200000,bensin
+768,Yamaha,Xabre,2016,35000,14500000,bensin
+769,Yamaha,Nuovo,2005,25000,3000000,bensin
+770,Piaggio,Vespa 125,2023,5000,58000000,bensin
+771,Honda,Vario,2013,35000,10200000,bensin
+772,Honda,Beat,2015,5000,10400000,bensin
+773,Honda,Beat,2018,5000,12800000,bensin
+774,Honda,Beat,2011,5000,7800000,bensin
+775,Honda,Beat,2023,5000,17000000,bensin
+776,Honda,PCX,2021,15000,26500000,bensin
+777,Piaggio,Vespa,2022,5000,55000000,bensin
+778,Yamaha,Mio,2014,35000,5500000,bensin
+779,Yamaha,WR 250,2020,25000,26500000,bensin
+780,Honda,Supra,2010,90000,8500000,bensin
+781,Honda,CBR,2019,45000,17500000,bensin
+782,Honda,Scoopy,2016,40000,11300000,bensin
+783,Yamaha,YZF R15,2014,40000,17000000,bensin
+784,Yamaha,YZF R15,2014,40000,17000000,bensin
+785,Honda,Vario,2014,50000,10000000,bensin
+786,Kawasaki,Z Series,2013,20000,174900000,bensin
+787,Yamaha,Fino,2019,20000,13500000,bensin
+788,Honda,Beat,2019,5000,15397000,bensin
+789,Yamaha,Soul GT,2012,20000,7900000,bensin
+790,Yamaha,Soul GT,2012,20000,7900000,bensin
+791,Yamaha,NMAX,2023,5000,31250000,bensin
+792,Yadea,Lain-lain,2024,5000,14850000,listrik
+793,Uwinifly,Lain-lain,2023,5000,5000000,listrik
+794,Alva,Lain-lain,2023,5000,28999999,listrik
+795,Alva,Lain-lain,2023,5000,9500000,listrik
+796,Smoot,Lain-lain,2022,10000,10400000,listrik
+797,Goda,Lain-lain,2023,40000,3500000,listrik
+798,Alva,Lain-lain,2023,5000,35000000,listrik
+799,Uwinifly,Lain-lain,2023,5000,8000000,listrik
+800,Smoot,Lain-lain,2022,10000,6650000,listrik
+801,Yadea,Lain-lain,2023,5000,10800000,listrik
+802,Yadea,Lain-lain,2023,5000,10800000,listrik
+803,Yadea,Lain-lain,2023,5000,6000000,listrik
+804,Gesits,Lain-lain,2022,5000,19000000,listrik
+805,Yadea,Lain-lain,2023,5000,15513000,listrik
+806,Yadea,Lain-lain,2023,5000,14500000,listrik
+807,Uwinifly,Lain-lain,2022,5000,8450000,listrik
+808,Uwinifly,Lain-lain,2023,5000,8000000,listrik
+809,Uwinifly,Lain-lain,2023,5000,13500000,listrik
+810,Smoot,Lain-lain,2023,10000,11500000,listrik
+811,Agats,Lain-lain,2023,5000,20499000,listrik
+812,Uwinifly,Lain-lain,2022,5000,6500000,listrik
+813,Smoot,Lain-lain,2022,10000,10000000,listrik
+814,Alva,Lain-lain,2024,5000,29490000,listrik
+815,Genio,Lain-lain,2023,5000,3500000,listrik
+816,Uwinifly,Lain-lain,2023,10000,8500000,listrik
+817,Yadea,Lain-lain,2023,5000,9800000,listrik
+818,Yadea,Lain-lain,2023,5000,12000000,listrik
+819,Uwinifly,Lain-lain,2023,5000,8000000,listrik
+820,Uwinifly,Lain-lain,2023,10000,10000000,listrik
+821,Gesits,Lain-lain,2023,10000,20000000,listrik
+822,Uwinifly,Lain-lain,2023,75000,7000000,listrik
+823,Exsotik,Lain-lain,2023,20000,8500000,listrik
+824,Exsotik,Lain-lain,2023,5000,8800000,listrik
+825,Uwinifly,Lain-lain,2023,40000,9000000,listrik
+826,Smoot,Lain-lain,2022,10000,10300000,listrik
+827,Uwinifly,Lain-lain,2022,5000,9500000,listrik
+828,Gesits,Lain-lain,2022,5000,22000000,listrik
+829,Alva,Lain-lain,2023,5000,3000000,listrik
+830,Exsotik,Lain-lain,2023,10000,8650000,listrik
+831,Goda,Lain-lain,2023,10000,9000000,listrik
+832,Uwinifly,Lain-lain,2022,5000,7500000,listrik
+833,Uwinifly,Lain-lain,2023,5000,5250000,listrik
+834,Uwinifly,Lain-lain,2023,5000,7300000,listrik
+835,Goda,Lain-lain,2022,15000,700000,listrik
+836,Goda,Lain-lain,2023,5000,9000000,listrik
+837,Yadea,Lain-lain,2023,5000,14500000,listrik
+838,Volta,Lain-lain,2023,15000,10500000,listrik
+839,Volta,Lain-lain,2021,10000,6000000,listrik
+840,Exsotik,Lain-lain,2023,20000,7500000,listrik
+841,Uwinifly,Lain-lain,2023,5000,8000000,listrik
+842,Uwinifly,Lain-lain,2023,5000,6700000,listrik
+843,Selis,Lain-lain,2022,45000,6000000,listrik
+844,Uwinifly,Lain-lain,2023,5000,7900000,listrik
+845,Uwinifly,Lain-lain,2023,5000,7000000,listrik
+846,Uwinifly,Lain-lain,2023,5000,7000000,listrik
+847,Uwinifly,Lain-lain,2023,5000,16000000,listrik
+848,Yadea,Lain-lain,2024,5000,15100000,listrik
+849,Yadea,Lain-lain,2024,5000,14850000,listrik
+850,Smoot,Lain-lain,2022,10000,10600000,listrik
+851,Tangkas,Lain-lain,2022,15000,11000000,listrik
+852,Tangkas,Lain-lain,2023,5000,12000000,listrik
+853,Tangkas,Lain-lain,2023,5000,16000000,listrik
+854,Uwinifly,Lain-lain,2023,10000,8000000,listrik
+855,Smoot,Lain-lain,2023,5000,12500000,listrik
+856,Smoot,Lain-lain,2023,5000,14000000,listrik
+857,Tangkas,Lain-lain,2024,5000,10399000,listrik
+858,Yadea,Lain-lain,2023,10000,500000,listrik
+859,Alva,Lain-lain,2023,15000,25000000,listrik
+860,Uwinifly,Lain-lain,2022,10000,6800000,listrik
+861,Uwinifly,Lain-lain,2023,5000,10000000,listrik
+862,Volta,Lain-lain,2023,5000,7500000,listrik
+863,Alva,Lain-lain,2023,5000,9000000,listrik
+864,Alva,Lain-lain,2023,5000,32000000,listrik
+865,Smoot,Lain-lain,2024,5000,5000000,listrik
+866,Smoot,Lain-lain,2023,10000,14000000,listrik
+867,United,Lain-lain,2024,5000,24500000,listrik
+868,United,Lain-lain,2023,5000,16900000,listrik
+869,United,Lain-lain,2024,5000,9900000,listrik
+870,Uwinifly,Lain-lain,2023,5000,7500000,listrik
+871,Uwinifly,Lain-lain,2023,5000,6000000,listrik
+872,Uwinifly,Lain-lain,2024,5000,9100000,listrik
+873,Yadea,Lain-lain,2023,5000,14500000,listrik
+874,Volta,Lain-lain,2023,5000,10000000,listrik
+875,Yadea,Lain-lain,2023,5000,14500000,listrik
+876,Yadea,Lain-lain,2023,5000,23000000,listrik
+877,Uwinifly,Lain-lain,2023,45000,4100000,listrik
+878,Uwinifly,Lain-lain,2022,5000,7000000,listrik
+879,Smoot,Lain-lain,2023,5000,11000000,listrik
+880,Genio,Lain-lain,2023,45000,4900000,listrik
+881,Uwinifly,Lain-lain,2023,5000,9500000,listrik
+882,Viar,Lain-lain,2021,25000,7500000,listrik
+883,Uwinifly,Lain-lain,2022,40000,7800000,listrik
+884,Uwinifly,Lain-lain,2023,5000,7500000,listrik
+885,Uwinifly,Lain-lain,2023,30000,8000000,listrik
+886,Voxa,Lain-lain,2023,45000,3300000,listrik
+887,Uwinifly,Lain-lain,2023,5000,10000000,listrik
+888,Smoot,Lain-lain,2023,5000,10000000,listrik
+889,Smoot,Lain-lain,2022,10000,20000000,listrik
+890,Yadea,Lain-lain,2023,5000,7000000,listrik
+891,Exsotik,Lain-lain,2023,5000,7000000,listrik
+892,Uwinifly,Lain-lain,2023,5000,8000000,listrik
+893,United,Lain-lain,2023,5000,22500000,listrik
+894,United,Lain-lain,2023,5000,22500000,listrik
+895,United,Lain-lain,2023,5000,10000000,listrik
+896,Smoot,Lain-lain,2023,5000,15000000,listrik
+897,Uwinifly,Lain-lain,2023,5000,8500000,listrik
+898,Volta,Lain-lain,2021,5000,4000000,listrik
+899,United,Lain-lain,2023,5000,10300000,listrik
+900,United,Lain-lain,2023,5000,12500000,listrik
+901,Uwinifly,Lain-lain,2023,5000,8500000,listrik
+902,Yadea,Lain-lain,2023,5000,16900000,listrik
+903,Winifly,Lain-lain,2024,5000,7999000,listrik
+904,Yadea,Lain-lain,2022,5000,6500000,listrik
+905,Uwinifly,Lain-lain,2017,5000,1500000,listrik
+906,Yadea,Lain-lain,2023,5000,11500000,listrik
+907,Yadea,Lain-lain,2023,5000,14000000,listrik
+908,Uwinifly,Lain-lain,2023,60000,7500000,listrik
+909,Uwinifly,Lain-lain,2023,60000,7500000,listrik
+910,Uwinifly,Lain-lain,2023,60000,7500000,listrik
+911,Uwinifly,Lain-lain,2023,5000,10000000,listrik
+912,Uwinifly,Lain-lain,2023,60000,7500000,listrik
+913,Uwinifly,Lain-lain,2023,60000,7500000,listrik
+914,Uwinifly,Lain-lain,2023,55000,7500000,listrik
+915,Uwinifly,Lain-lain,2023,60000,7500000,listrik
+916,Uwinifly,Lain-lain,2023,60000,7500000,listrik
+917,Uwinifly,Lain-lain,2022,5000,8500000,listrik
+918,Vespa,Lain-lain,2023,10000,34900000,listrik
+919,Yadea,Lain-lain,2023,5000,8499000,listrik
+920,Uwinifly,Lain-lain,2022,5000,2950000,listrik
+921,Smoot,Lain-lain,2022,10000,9500000,listrik
+922,Smoot,Lain-lain,2020,5000,2500000,listrik
+923,Smoot,Lain-lain,2023,5000,10300000,listrik
+924,Smoot,Lain-lain,2022,5000,8500000,listrik
+925,Smoot,Lain-lain,2023,5000,3000000,listrik

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelola Data Motor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Kelola Data Motor</h1>
+    <nav>
+        <a href="{{ url_for('index') }}">Beranda</a> | 
+        <a href="{{ url_for('crud') }}">Kelola Data</a> | 
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </nav>
+    <hr>
+    <form method="POST" action="{{ url_for('run_notebook') }}">
+        <button type="submit">Jalankan Notebook</button>
+    </form>
+    <script>
+        // Fungsi untuk memformat angka dengan titik sebagai pemisah ribuan
+        function formatPrice(input) {
+            let value = input.value.replace(/\D/g, ''); // Hapus karakter non-angka
+            input.value = value.replace(/\B(?=(\d{3})+(?!\d))/g, '.'); // Tambahkan titik
+        }
+    </script>
+
+    <!-- Form untuk pencarian -->
+    <h2>Cari Data</h2>
+    <form method="GET" action="{{ url_for('crud') }}">
+        <input type="text" name="search" placeholder="Cari berdasarkan kata kunci..." value="{{ request.args.get('search', '') }}">
+        <button type="submit">Cari</button>
+    </form>
+
+    <hr>
+
+    <!-- Form untuk menambah data -->
+    <h2>Tambah Data</h2>
+    <form method="POST">
+        <input type="hidden" name="action" value="add">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="company">Perusahaan:</label></td>
+                    <td><input type="text" id="company" name="company" required></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Nama Motor:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="year">Tahun:</label></td>
+                    <td><input type="number" id="year" name="year" required></td>
+                </tr>
+                <tr>
+                    <td><label for="kms_driven">Kilometer:</label></td>
+                    <td><input type="number" id="kms_driven" name="kms_driven" required></td>
+                </tr>
+                <tr>
+                    <td><label for="price">Harga:</label></td>
+                    <td><input type="number" id="price" name="price" required></td>
+                </tr>
+                <tr>
+                    <td><label for="fuel_type">Bahan Bakar:</label></td>
+                    <td><input type="text" id="fuel_type" name="fuel_type" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Tambah</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <hr>
+
+    <!-- Tabel data -->
+    <h2>Daftar Motor</h2>
+    {% if motor_data %}
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Perusahaan</th>
+                    <th>Nama Motor</th>
+                    <th>Tahun</th>
+                    <th>Kilometer</th>
+                    <th>Harga</th>
+                    <th>Bahan Bakar</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in motor_data %}
+                <tr>
+                    <td>{{ loop.index0 }}</td>
+                    <td>{{ row['company'] }}</td>
+                    <td>{{ row['name'] }}</td>
+                    <td>{{ row['year'] }}</td>
+                    <td>{{ row['kms_driven'] }}</td>
+                    <td>{{ row['price'] }}</td>
+                    <td>{{ row['fuel_type'] }}</td>
+                    <td>
+                        <form method="POST" style="display:inline;">
+                            <input type="hidden" name="action" value="delete">
+                            <input type="hidden" name="row_id" value="{{ loop.index0 }}">
+                            <button type="submit" onclick="return confirm('Yakin ingin menghapus data ini?')">Hapus</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Tidak ada data yang ditemukan.</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Harga Motor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selamat Datang{% if session['username'] %}, {{ session['username'] }}{% endif %}</h1>
+            <nav>
+                <a href="{{ url_for('index') }}">Beranda</a>
+                {% if session['username'] %}
+                    | <a href="{{ url_for('crud') }}">Kelola Data</a>
+                    | <a href="{{ url_for('logout') }}">Logout</a>
+                {% else %}
+                    | <a href="{{ url_for('login') }}">Login</a>
+                {% endif %}
+            </nav>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>Tentang Aplikasi</h2>
+                <p>Aplikasi ini membantu Anda memprediksi harga motor berdasarkan informasi seperti perusahaan, model motor, tahun, jenis bahan bakar, dan jarak tempuh. Masukkan informasi yang diminta untuk mendapatkan estimasi harga motor.</p>
+            </section>
+
+            <section class="form-section">
+                <h2>Prediksi Harga Motor</h2>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="company">Perusahaan:</label>
+                        <select name="company" id="company" required>
+                            <option value="">Pilih Perusahaan</option>
+                            {% for company in companies %}
+                                <option value="{{ company }}" {% if company == request.form.get('company') %}selected{% endif %}>{{ company }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="motor_model">Model Motor:</label>
+                        <select name="motor_name" id="motor_model" required>
+                            <option value="">Pilih Model Motor</option>
+                            {% if motor_models %}
+                                {% for model in motor_models %}
+                                    <option value="{{ model }}" {% if model == request.form.get('motor_name') %}selected{% endif %}>{{ model }}</option>
+                                {% endfor %}
+                            {% endif %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="year">Tahun:</label>
+                        <select name="year" id="year" required>
+                            <option value="">Pilih Tahun</option>
+                            {% for year in years %}
+                                <option value="{{ year }}" {% if year == request.form.get('year')|int %}selected{% endif %}>{{ year }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fuel">Bahan Bakar:</label>
+                        <select name="fuel" id="fuel" required>
+                            <option value="">Pilih Bahan Bakar</option>
+                            {% for fuel in fuel_types %}
+                                <option value="{{ fuel }}" {% if fuel == request.form.get('fuel') %}selected{% endif %}>{{ fuel }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="kilo">Kilometer:</label>
+                        <input type="number" name="kilo" id="kilo" value="{{ request.form.get('kilo') }}" required>
+                    </div>
+
+                    <button type="submit">Prediksi</button>
+                </form>
+
+                {% if prediction %}
+                    <h3>Hasil Prediksi</h3>
+                    <p>Harga Prediksi: <strong>Rp {{ "{:,.0f}".format(prediction).replace(',', '.') }}</strong></p>
+                    <p>Nilai R²: <strong>{{ "{:.4f}".format(r_squared) }}</strong></p>
+                    <p>Intercept: <strong>{{ "{:,.2f}".format(intercept) }}</strong></p>
+                {% else %}
+                    <p>Masukkan informasi untuk memprediksi harga motor.</p>
+                {% endif %}
+            </section>
+        </main>
+    </div>
+
+    <script>
+        document.getElementById('company').addEventListener('change', function () {
+            var company = this.value;
+            if (company) {
+                fetch(`/get_motor_models/${company}`)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! Status: ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        var motorModelSelect = document.getElementById('motor_model');
+                        motorModelSelect.innerHTML = '<option value="">Pilih Model Motor</option>';
+                        data.forEach(function (model) {
+                            var option = document.createElement('option');
+                            option.value = model;
+                            option.textContent = model;
+                            motorModelSelect.appendChild(option);
+                        });
+                    })
+                    .catch(error => {
+                        console.error("Error fetching motor models:", error);
+                        alert("Gagal memuat model motor. Pastikan data perusahaan valid.");
+                    });
+            }
+        });
+    </script>
+</body>
+</html>

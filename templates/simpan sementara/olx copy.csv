@@ -1,0 +1,926 @@
+company,name,year,kms_driven,Price,fuel_type
+Yamaha,NMAX,2018,5000 kms,21.000.000,bensin
+Honda,Vario,2014,5000 kms,10.500.000,bensin
+Kawasaki,Ninja KRR,2012,30000 kms,25.000.000,bensin
+Honda,Supra,2002,5000 kms,3.200.000,bensin
+Honda,Vario,2022,25000 kms,19.950.000,bensin
+Honda,Scoopy,2023,5000 kms,18.000.000,bensin
+Honda,Scoopy,2015,20000 kms,12.400.000,bensin
+Honda,Vario,2011,5000 kms,7.500.000,bensin
+Honda,Beat,2018,45000 kms,15.300.000,bensin
+Yamaha,Mio,2022,5000 kms,13.300.000,bensin
+Honda,Scoopy,2015,25000 kms,12.400.000,bensin
+Honda,Scoopy,2015,25000 kms,12.400.000,bensin
+Honda,Beat,2021,25000 kms,15.000.000,bensin
+Piaggio,GTS,2021,5000 kms,195.000.000,bensin
+Piaggio,Sprint,2022,10000 kms,49.900.000,bensin
+Harley Davidson,Touring,2021,5000 kms,635.000.000,bensin
+Honda,Vario,2020,50000 kms,18.500.000,bensin
+Honda,Beat,2021,20000 kms,15.500.000,bensin
+Honda,Beat,2021,25000 kms,16.700.000,bensin
+Honda,CBR,2022,5000 kms,32.900.000,bensin
+Yamaha,NMAX,2022,10000 kms,29.800.000,bensin
+Honda,CBR,2015,40000 kms,14.500.000,bensin
+Kawasaki,Ninja 250,2015,15000 kms,21.500.000,bensin
+Honda,Beat,2021,5000 kms,16.800.000,bensin
+Yamaha,Lexi,2018,15000 kms,15.000.000,bensin
+Honda,Scoopy,2022,5000 kms,15.000.000,bensin
+Yamaha,Vixion,2016,7000 kms,8.950.000,bensin
+Yamaha,Lexi,2018,20000 kms,15.000.000,bensin
+Viar,Karya,2022,25000 kms,20.750.000,bensin
+BMW,R NineT,2015,15000 kms,520.000.000,bensin
+Honda,Vario,2010,6000 kms,4.200.000,bensin
+Honda,Vario,2010,5000 kms,4.200.000,bensin
+Honda,Vario,2021,20000 kms,19.250.000,bensin
+Yamaha,Vega R,2005,30000 kms,3.500.000,bensin
+Honda,CBR,2017,5000 kms,21.000.000,bensin
+Honda,CBR,2017,5000 kms,21.000.000,bensin
+Honda,PCX,2020,30000 kms,29.800.000,bensin
+Yamaha,Lexi,2021,10000 kms,18.000.000,bensin
+Honda,Scoopy,2022,15000 kms,20.800.000,bensin
+Honda,Beat,2021,5000 kms,16.700.000,bensin
+Yamaha,Fino,2021,25000 kms,13.500.000,bensin
+Honda,Scoopy,2019,5000 kms,14.900.000,bensin
+Honda,Scoopy,2020,5000 kms,16.400.000,bensin
+Honda,Vario,2022,10000 kms,25.500.000,bensin
+Viar,150,2021,5000 kms,24.500.000,bensin
+Honda,Supra,2007,15000 kms,5.750.000,bensin
+Honda,Supra,2007,30000 kms,5.750.000,bensin
+Viar,Karya,2017,65000 kms,17.500.000,bensin
+Honda,Scoopy,2022,5000 kms,19.500.000,bensin
+Yamaha,Xeon,2011,45000 kms,5.850.000,bensin
+Honda,Beat,2011,5000 kms,7.800.000,bensin
+Honda,Beat,2020,5000 kms,14.500.000,bensin
+Honda,Beat,2018,5000 kms,12.500.000,bensin
+Yamaha,Vixion,2014,5000 kms,11.000.000,bensin
+Honda,Vario,2021,5000 kms,18.500.000,bensin
+Honda,Vario,2016,40000 kms,13.250.000,bensin
+Honda,Vario,2016,40000 kms,10.350.000,bensin
+Honda,Vario,2020,15000 kms,18.600.000,bensin
+Honda,Beat,2022,15000 kms,16.250.000,bensin
+Honda,Beat,2016,35000 kms,11.500.000,bensin
+Honda,Vario,2015,40000 kms,12.900.000,bensin
+Yamaha,Mio,2015,35000 kms,8.500.000,bensin
+Honda,Vario,2021,15000 kms,18.500.000,bensin
+Yamaha,Mio,2023,10000 kms,18.600.000,bensin
+Honda,CBR,2017,25000 kms,39.500.000,bensin
+Kawasaki,ZX,2021,20000 kms,99.500.000,bensin
+Piaggio,Primavera,2023,5000 kms,53.000.000,bensin
+Harley Davidson,Softail,2021,5000 kms,365.000.000,bensin
+Piaggio,Primavera,2023,5000 kms,53.000.000,bensin
+Yamaha,Xmax,2018,30000 kms,45.000.000,bensin
+Piaggio,Sprint,2022,5000 kms,51.000.000,bensin
+Honda,Supra,2017,30000 kms,12.000.000,bensin
+Honda,Scoopy,2012,5000 kms,8.550.000,bensin
+Yamaha,Jupiter,2007,55000 kms,6.500.000,bensin
+Honda,Beat,2020,15000 kms,13.900.000,bensin
+Honda,Mega pro,2010,30000 kms,10.500.000,bensin
+Honda,Scoopy,2019,5000 kms,15.200.000,bensin
+Honda,Vario,2022,25000 kms,22.700.000,bensin
+Yamaha,Mio,2021,5000 kms,16.900.000,bensin
+Honda,PCX,2020,25000 kms,29.700.000,bensin
+Honda,Scoopy,2020,30000 kms,18.500.000,bensin
+Honda,PCX,2022,5000 kms,30.800.000,bensin
+Yamaha,NMAX,2019,20000 kms,22.300.000,bensin
+Honda,CB 150R,2021,10000 kms,23.500.000,bensin
+Honda,PCX,2019,20000 kms,28.500.000,bensin
+Honda,PCX,2019,20000 kms,28.500.000,bensin
+Honda,Vario,2013,25000 kms,10.200.000,bensin
+Yamaha,Aerox,2019,5000 kms,28.500.000,bensin
+Honda,Vario,2021,15000 kms,18.350.000,bensin
+Yamaha,Aerox,2019,5000 kms,28.500.000,bensin
+Honda,PCX,2019,25000 kms,21.900.000,bensin
+Kawasaki,Ninja 250,2022,10000 kms,59.000.000,bensin
+Harley Davidson,Softail,2021,5000 kms,365.000.000,bensin
+Yamaha,Mio,2009,5000 kms,5.800.000,bensin
+Honda,Supra,2016,20000 kms,10.400.000,bensin
+Honda,Supra,2016,20000 kms,10.400.000,bensin
+Yamaha,Mio,2022,5000 kms,15.900.000,bensin
+Yamaha,Mio,2022,5000 kms,15.900.000,bensin
+Yamaha,Fino,2022,5000 kms,18.500.000,bensin
+Yamaha,Freego,2021,5000 kms,14.500.000,bensin
+Honda,Vario,2020,20000 kms,17.950.000,bensin
+Honda,Beat,2023,5000 kms,17.299.000,bensin
+Kawasaki,Ninja 250,2020,30000 kms,52.000.000,bensin
+Kawasaki,Ninja 250,2020,25000 kms,52.000.000,bensin
+Kawasaki,Ninja 250,2020,30000 kms,52.000.000,bensin
+Honda,Supra,2006,45000 kms,5.200.000,bensin
+Honda,PCX,2021,30000 kms,26.300.000,bensin
+Yamaha,Aerox,2019,5000 kms,28.500.000,bensin
+Yamaha,Aerox,2018,45000 kms,18.500.000,bensin
+Yamaha,NMAX,2018,60000 kms,20.500.000,bensin
+Honda,Beat,2017,35000 kms,12.500.000,bensin
+Honda,Supra,2012,5000 kms,11.800.000,bensin
+Honda,Beat,2015,35000 kms,9.900.000,bensin
+Honda,Vario,2019,20000 kms,17.000.000,bensin
+Honda,Vario,2019,20000 kms,17.000.000,bensin
+Honda,PCX,2014,35000 kms,18.750.000,bensin
+Honda,Vario,2019,20000 kms,17.000.000,bensin
+Honda,CB 150R,2016,10000 kms,16.500.000,bensin
+Honda,Vario,2014,50000 kms,9.900.000,bensin
+Honda,Scoopy,2023,5000 kms,19.900.000,bensin
+Yamaha,Soul GT,2016,25000 kms,10.500.000,bensin
+Honda,PCX,2020,5000 kms,26.500.000,bensin
+Yamaha,Soul GT,2016,20000 kms,10.500.000,bensin
+Honda,Supra,2019,20000 kms,12.500.000,bensin
+Honda,Forza,2019,10000 kms,74.000.000,bensin
+Honda,CB,2015,20000 kms,14.500.000,bensin
+Yamaha,Soul GT,2016,20000 kms,10.500.000,bensin
+Yamaha,NMAX,2021,10000 kms,29.000.000,bensin
+Honda,Beat,2021,20000 kms,14.800.000,bensin
+Yamaha,Fino,2017,25000 kms,12.300.000,bensin
+Honda,Vario,2014,30000 kms,11.000.000,bensin
+Yamaha,Aerox,2022,5000 kms,27.500.000,bensin
+Honda,Scoopy,2022,10000 kms,18.500.000,bensin
+Honda,Scoopy,2021,20000 kms,17.250.000,bensin
+Yamaha,Mio,2017,25000 kms,10.000.000,bensin
+Honda,PCX,2021,20000 kms,28.000.000,bensin
+Honda,Beat,2012,5000 kms,7.500.000,bensin
+Honda,Scoopy,2022,15000 kms,18.600.000,bensin
+Honda,Scoopy,2022,10000 kms,18.750.000,bensin
+Yamaha,Lexi,2018,30000 kms,14.900.000,bensin
+Yamaha,Freego,2021,20000 kms,15.200.000,bensin
+Honda,Scoopy,2019,35000 kms,11.800.000,bensin
+Yamaha,Mio,2016,25000 kms,9.750.000,bensin
+Honda,Vario,2018,20000 kms,17.700.000,bensin
+Honda,Vario,2022,10000 kms,25.500.000,bensin
+Honda,Vario,2022,10000 kms,22.900.000,bensin
+Honda,Beat,2020,15000 kms,15.500.000,bensin
+Honda,Vario,2022,10000 kms,21.500.000,bensin
+Yamaha,Mio,2018,20000 kms,10.600.000,bensin
+Honda,Vario,2010,5000 kms,4.200.000,bensin
+Honda,Vario,2010,5000 kms,4.200.000,bensin
+Yamaha,Vixion,2016,5000 kms,8.950.000,bensin
+Honda,Vario,2018,20000 kms,17.750.000,bensin
+Yamaha,NMAX,2022,15000 kms,26.000.000,bensin
+Yamaha,YZF R15,2022,5000 kms,36.000.000,bensin
+Yamaha,YZF R15,2022,5000 kms,36.000.000,bensin
+Harley Davidson,Touring,2020,5000 kms,650.000.000,bensin
+Honda,Supra,1991,300000 kms,4.800.000,bensin
+Yamaha,Mio,2016,25000 kms,9.750.000,bensin
+Yamaha,Mio,2016,20000 kms,9.750.000,bensin
+Yamaha,Vixion,2017,5000 kms,12.000.000,bensin
+Honda,Beat,2011,5000 kms,7.800.000,bensin
+Honda,Beat,2018,5000 kms,12.500.000,bensin
+Honda,Beat,2022,5000 kms,16.500.000,bensin
+Honda,Beat,2019,20000 kms,13.000.000,bensin
+Honda,Beat,2022,5000 kms,16.500.000,bensin
+Benelli,BN,2021,5000 kms,200.000.000,bensin
+Yamaha,Aerox,2021,45000 kms,25.000.000,bensin
+Kawasaki,Ninja KRR,2013,75000 kms,17.500.000,bensin
+Honda,Sonic,2020,25000 kms,13.000.000,bensin
+Yamaha,Vega R,2004,5000 kms,5.000.000,bensin
+Kawasaki,Ninja 250,2023,40000 kms,29.000.000,bensin
+Yamaha,Mio,2008,15000 kms,4.200.000,bensin
+Honda,CBR,2014,45000 kms,15.800.000,bensin
+Honda,Scoopy,2022,15000 kms,19.800.000,bensin
+Honda,Vario,2016,15000 kms,19.000.000,bensin
+Kawasaki,ZX,2021,20000 kms,99.500.000,bensin
+Honda,Vario,2021,45000 kms,18.500.000,bensin
+Honda,PCX,2018,30000 kms,21.850.000,bensin
+Yamaha,Freego,2023,10000 kms,26.000.000,bensin
+Yamaha,Vega R,2008,90000 kms,3.800.000,bensin
+Yamaha,MT 25,2019,5000 kms,45.500.000,bensin
+Yamaha,MT 25,2019,5000 kms,45.500.000,bensin
+Yamaha,Vixion,2016,5000 kms,8.950.000,bensin
+Honda,PCX,2022,10000 kms,28.800.000,bensin
+Yamaha,Jupiter,2023,5000 kms,25.500.000,bensin
+Honda,CBR,2019,5000 kms,25.500.000,bensin
+Kawasaki,Ninja 250,2015,5000 kms,37.500.000,bensin
+Honda,CBR,2022,5000 kms,61.000.000,bensin
+Kawasaki,W800,2020,10000 kms,26.000.000,bensin
+Kawasaki,W800,2020,5000 kms,26.000.000,bensin
+Yamaha,Freego,2021,20000 kms,15.200.000,bensin
+Suzuki,Satria,2016,15000 kms,15.000.000,bensin
+Yamaha,Soul GT,2016,20000 kms,10.500.000,bensin
+Honda,CBR,2017,5000 kms,21.500.000,bensin
+Suzuki,GSX,2018,5000 kms,19.800.000,bensin
+Honda,Vario,2014,95000 kms,9.100.000,bensin
+Kawasaki,Ninja 250,2015,5000 kms,21.500.000,bensin
+Kawasaki,Ninja 250,2019,15000 kms,48.000.000,bensin
+Honda,Beat,2020,5000 kms,14.600.000,bensin
+Kawasaki,Ninja 250,2019,20000 kms,48.000.000,bensin
+Honda,Sonic,2018,5000 kms,16.500.000,bensin
+Honda,Vario,2015,20000 kms,15.500.000,bensin
+Piaggio,Sprint,2022,5000 kms,52.900.000,bensin
+Yamaha,YZF R15,2022,5000 kms,36.000.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Kawasaki,Ninja 250,2018,10000 kms,43.000.000,bensin
+Honda,Vario,2023,5000 kms,21.300.000,bensin
+Honda,Beat,2023,5000 kms,18.200.000,bensin
+Honda,Sonic,2018,15000 kms,16.500.000,bensin
+Yamaha,YZF R15,2022,5000 kms,36.000.000,bensin
+Honda,Scoopy,2021,10000 kms,17.750.000,bensin
+Honda,Vario,2020,5000 kms,19.700.000,bensin
+Honda,Vario,2017,5000 kms,16.400.000,bensin
+Honda,CB 150R,2021,30000 kms,24.500.000,bensin
+Yamaha,Fino,2018,5000 kms,12.900.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Honda,Vario,2021,30000 kms,22.000.000,bensin
+Yamaha,Aerox,2018,5000 kms,18.750.000,bensin
+Honda,PCX,2022,20000 kms,31.400.000,bensin
+Honda,Beat,2023,5000 kms,18.200.000,bensin
+Honda,Scoopy,2023,5000 kms,20.700.000,bensin
+Honda,Beat,2018,70000 kms,14.200.000,bensin
+Honda,PCX,2020,25000 kms,29.700.000,bensin
+Honda,Scoopy,2020,30000 kms,18.500.000,bensin
+Harley Davidson,Touring,2020,5000 kms,725.000.000,bensin
+Harley Davidson,Touring,2013,10000 kms,485.000.000,bensin
+Yamaha,Xabre,2020,10000 kms,29.750.000,bensin
+Honda,CB 150R,2022,10000 kms,25.850.000,bensin
+Yamaha,YZF R15,2015,25000 kms,13.250.000,bensin
+Honda,CB 150R,2020,5000 kms,21.000.000,bensin
+Honda,Vario,2017,5000 kms,15.900.000,bensin
+Honda,CB 150R,2019,5000 kms,19.500.000,bensin
+Honda,CBR,2019,15000 kms,23.500.000,bensin
+Honda,Scoopy,2018,25000 kms,15.100.000,bensin
+Honda,Scoopy,2022,10000 kms,18.750.000,bensin
+Honda,Vario,2017,35000 kms,15.900.000,bensin
+Honda,Scoopy,2021,15000 kms,17.700.000,bensin
+Honda,CBR,2023,15000 kms,28.900.000,bensin
+Honda,Beat,2021,30000 kms,15.100.000,bensin
+Honda,Beat,2021,15000 kms,14.800.000,bensin
+Honda,CBR,2022,30000 kms,27.500.000,bensin
+Kawasaki,Ninja 250,2013,15000 kms,27.500.000,bensin
+Yamaha,NMAX,2022,20000 kms,26.500.000,bensin
+Yamaha,YZF R15,2023,10000 kms,33.800.000,bensin
+Honda,PCX,2021,15000 kms,29.500.000,bensin
+Kawasaki,Ninja 250,2016,50000 kms,33.300.000,bensin
+Yamaha,Mio,2018,5000 kms,12.500.000,bensin
+Suzuki,Shooter,2014,5000 kms,5.750.000,bensin
+Honda,Sonic,2021,5000 kms,18.400.000,bensin
+Honda,Vario,2017,20000 kms,16.500.000,bensin
+Honda,Vario,2017,50000 kms,17.800.000,bensin
+Yamaha,YZF R15,2015,25000 kms,13.250.000,bensin
+Suzuki,Shogun,2005,300000 kms,4.300.000,bensin
+Honda,Beat,2016,35000 kms,10.100.000,bensin
+Yamaha,Xeon,2015,25000 kms,8.000.000,bensin
+Yamaha,NMAX,2019,30000 kms,21.300.000,bensin
+Honda,Scoopy,2018,35000 kms,14.300.000,bensin
+Honda,Beat,2023,10000 kms,16.900.000,bensin
+Honda,Beat,2022,15000 kms,15.500.000,bensin
+Honda,PCX,2021,25000 kms,26.250.000,bensin
+Yamaha,NMAX,2021,25000 kms,22.600.000,bensin
+Honda,Beat,2015,45000 kms,10.000.000,bensin
+Honda,Vario,2017,35000 kms,13.900.000,bensin
+Honda,Beat,2019,65000 kms,13.200.000,bensin
+Honda,CBR,2019,30000 kms,22.300.000,bensin
+Honda,Scoopy,2018,5000 kms,14.500.000,bensin
+Honda,Beat,2011,5000 kms,7.800.000,bensin
+Honda,Beat,2018,5000 kms,12.500.000,bensin
+Yamaha,Vixion,2017,5000 kms,12.000.000,bensin
+Yamaha,Vixion,2014,5000 kms,11.000.000,bensin
+Honda,PCX,2020,25000 kms,29.700.000,bensin
+Honda,Scoopy,2020,25000 kms,18.500.000,bensin
+Honda,Beat,2014,105000 kms,8.000.000,bensin
+Yamaha,Aerox,2017,65000 kms,16.000.000,bensin
+Honda,CBR,2017,25000 kms,39.500.000,bensin
+Yamaha,Freego,2022,5000 kms,19.800.000,bensin
+Honda,Beat,2023,5000 kms,18.200.000,bensin
+Honda,Scoopy,2023,5000 kms,20.700.000,bensin
+Honda,CBR,2016,5000 kms,18.800.000,bensin
+Yamaha,Byson,2016,5000 kms,13.000.000,bensin
+Yamaha,Fino,2021,5000 kms,17.700.000,bensin
+Honda,Astrea,1996,300000 kms,5.000.000,bensin
+Honda,kharisma,2004,20000 kms,4.000.000,bensin
+Kawasaki,Ninja 250,2017,10000 kms,42.000.000,bensin
+Piaggio,Sprint,2019,15000 kms,45.000.000,bensin
+Kawasaki,Ninja 250,2017,10000 kms,42.000.000,bensin
+Honda,Beat,2022,5000 kms,16.500.000,bensin
+Honda,Scoopy,2016,25000 kms,11.500.000,bensin
+Honda,NSR,1991,30000 kms,400.000.000,bensin
+Kawasaki,ZX,2011,20000 kms,250.000.000,bensin
+Honda,Scoopy,2019,5000 kms,14.300.000,bensin
+Honda,Sonic,2015,50000 kms,12.500.000,bensin
+Honda,Sonic,2015,50000 kms,12.500.000,bensin
+Honda,CBR,2017,25000 kms,17.600.000,bensin
+Honda,Sonic,2015,50000 kms,12.500.000,bensin
+Honda,CBR,2023,5000 kms,33.500.000,bensin
+Honda,Sonic,2015,50000 kms,12.500.000,bensin
+Yamaha,NMAX,2020,20000 kms,27.000.000,bensin
+Yamaha,NMAX,2020,20000 kms,27.000.000,bensin
+Yamaha,NMAX,2020,20000 kms,27.000.000,bensin
+Yamaha,NMAX,2020,20000 kms,27.000.000,bensin
+Kawasaki,Ninja 250,2019,15000 kms,41.000.000,bensin
+Honda,Supra,2018,25000 kms,14.000.000,bensin
+Honda,Supra,2018,25000 kms,14.000.000,bensin
+Honda,Vario,2018,20000 kms,18.500.000,bensin
+Kawasaki,Ninja 250,2019,15000 kms,41.000.000,bensin
+Honda,CBR,2012,15000 kms,26.000.000,bensin
+Honda,CBR,2016,25000 kms,16.600.000,bensin
+Honda,CBR,2023,5000 kms,33.500.000,bensin
+Honda,Beat,2023,5000 kms,18.400.000,bensin
+Honda,Scoopy,2016,40000 kms,12.000.000,bensin
+Yamaha,Aerox,2018,50000 kms,23.800.000,bensin
+Honda,Beat,2020,35000 kms,16.200.000,bensin
+Honda,Vario,2019,40000 kms,20.400.000,bensin
+Honda,Beat,2021,30000 kms,16.900.000,bensin
+Honda,PCX,2022,20000 kms,31.400.000,bensin
+Honda,CB 150R,2017,15000 kms,16.500.000,bensin
+Yamaha,Vixion,2016,5000 kms,8.950.000,bensin
+Kawasaki,D-Tracker,2018,15000 kms,23.500.000,bensin
+Honda,PCX,2021,10000 kms,28.000.000,bensin
+Honda,Beat,2014,5000 kms,8.500.000,bensin
+Honda,Beat,2014,5000 kms,8.500.000,bensin
+Honda,Scoopy,2022,5000 kms,19.800.000,bensin
+Yamaha,YZF R15,2018,5000 kms,26.500.000,bensin
+Yamaha,NMAX,2021,20000 kms,26.500.000,bensin
+Yamaha,Aerox,2017,25000 kms,19.800.000,bensin
+Yamaha,YZF R15,2023,5000 kms,26.500.000,bensin
+Yamaha,NMAX,2021,20000 kms,26.500.000,bensin
+Yamaha,YZF R15,2023,5000 kms,37.000.000,bensin
+Yamaha,Grizzly,2021,50000 kms,11.750.000,bensin
+Yamaha,YZF R15,2021,15000 kms,28.500.000,bensin
+Honda,CBR,2018,15000 kms,23.000.000,bensin
+Yamaha,Xeon,2014,5000 kms,8.900.000,bensin
+Yamaha,Xabre,2016,5000 kms,20.500.000,bensin
+Yamaha,Xabre,2016,5000 kms,20.500.000,bensin
+Yamaha,Xabre,2016,5000 kms,20.500.000,bensin
+Yamaha,Freego,2022,5000 kms,20.500.000,bensin
+Yamaha,NMAX,2020,30000 kms,23.500.000,bensin
+Honda,CBR,2010,30000 kms,25.000.000,bensin
+Yamaha,NMAX,2020,35000 kms,23.950.000,bensin
+Honda,Beat,2021,20000 kms,14.950.000,bensin
+Honda,PCX,2019,25000 kms,21.950.000,bensin
+Honda,Beat,2021,25000 kms,14.850.000,bensin
+Yamaha,Scorpio,2012,35000 kms,13.900.000,bensin
+Honda,Vario,2016,30000 kms,13.350.000,bensin
+Honda,Vario,2015,35000 kms,12.900.000,bensin
+Honda,Vario,2015,40000 kms,13.500.000,bensin
+Honda,Beat,2016,35000 kms,10.750.000,bensin
+Honda,Beat,2016,45000 kms,11.000.000,bensin
+Honda,Beat,2015,60000 kms,10.100.000,bensin
+Honda,Scoopy,2016,25000 kms,12.500.000,bensin
+Yamaha,NMAX,2020,30000 kms,23.750.000,bensin
+Honda,CBR,2017,30000 kms,16.500.000,bensin
+Honda,Scoopy,2022,10000 kms,18.300.000,bensin
+Yamaha,NMAX,2019,30000 kms,20.800.000,bensin
+Yamaha,Vixion,2017,5000 kms,12.000.000,bensin
+Honda,Scoopy,2022,10000 kms,18.600.000,bensin
+Honda,Vario,2021,25000 kms,20.500.000,bensin
+Honda,Scoopy,2018,20000 kms,15.500.000,bensin
+Honda,Scoopy,2018,5000 kms,14.500.000,bensin
+Honda,Beat,2023,5000 kms,17.000.000,bensin
+Honda,Beat,2011,5000 kms,7.800.000,bensin
+Honda,Beat,2017,5000 kms,16.500.000,bensin
+Kawasaki,Ninja R,2015,50000 kms,45.000.000,bensin
+Honda,Beat,2017,50000 kms,12.500.000,bensin
+Harley Davidson,Touring,2016,5000 kms,450.000.000,bensin
+Kawasaki,Versys,2023,5000 kms,75.000.000,bensin
+Honda,CB,2016,35000 kms,14.500.000,bensin
+Piaggio,Primavera,2023,5000 kms,45.000.000,bensin
+Harley Davidson,Street,2021,5000 kms,625.000.000,bensin
+BMW,R1200GS,2020,5000 kms,515.000.000,bensin
+Ducati,Monster 696,2012,15000 kms,140.000.000,bensin
+Harley Davidson,Touring,2021,5000 kms,725.000.000,bensin
+Honda,CBR,2023,5000 kms,61.000.000,bensin
+KTM,Duke,2018,25000 kms,35.000.000,bensin
+Piaggio,Vespa,1986,105000 kms,22.000.000,bensin
+Kawasaki,Z Series,2013,15000 kms,37.500.000,bensin
+Harley Davidson,Touring,2019,10000 kms,525.000.000,bensin
+Kawasaki,Estrella,2019,10000 kms,23.250.000,bensin
+Piaggio,Vespa,1986,300000 kms,85.000.000,bensin
+Yamaha,F 1 ZR,2002,20000 kms,11.000.000,bensin
+Yamaha,F 1 ZR,1999,25000 kms,9.900.000,bensin
+Yamaha,NMAX,2019,55000 kms,21.000.000,bensin
+Honda,CB 150R,2018,30000 kms,16.000.000,bensin
+Yamaha,R1,2014,15000 kms,350.000.000,bensin
+Honda,Beat,2023,5000 kms,16.250.000,bensin
+Kawasaki,Ninja,2022,5000 kms,135.000.000,bensin
+Yamaha,NMAX,2022,55000 kms,27.500.000,bensin
+Piaggio,Sprint,2022,5000 kms,48.500.000,bensin
+Lain-lain,Lain-lain,2021,10000 kms,90.000.000,bensin
+Benelli,Patagonian Eagle,2021,25000 kms,60.000.000,bensin
+Piaggio,Vespa,1986,5000 kms,90.000.000,bensin
+Honda,Beat,2016,30000 kms,11.500.000,bensin
+Harley Davidson,V-Rod,2010,10000 kms,365.000.000,bensin
+Kawasaki,Ninja R,2019,30000 kms,20.500.000,bensin
+Kawasaki,KLX,2021,10000 kms,28.500.000,bensin
+Honda,Vario,2021,25000 kms,20.500.000,bensin
+Honda,Vario,2020,15000 kms,18.500.000,bensin
+Yamaha,Xmax,2018,15000 kms,46.000.000,bensin
+Honda,Scoopy,2018,35000 kms,14.000.000,bensin
+Honda,Scoopy,2023,10000 kms,19.000.000,bensin
+Honda,Vario,2019,30000 kms,18.500.000,bensin
+Honda,Beat,2019,30000 kms,14.000.000,bensin
+Yamaha,Xeon,2015,35000 kms,9.000.000,bensin
+Honda,Impressa,1995,30000 kms,10.500.000,bensin
+Honda,Beat,2022,15000 kms,16.000.000,bensin
+Yamaha,NMAX,2022,5000 kms,29.800.000,bensin
+Honda,CBR,2019,5000 kms,24.500.000,bensin
+Yamaha,Freego,2021,5000 kms,14.500.000,bensin
+Honda,Scoopy,2023,10000 kms,19.800.000,bensin
+Honda,CBR,2023,5000 kms,33.500.000,bensin
+Yamaha,Soul GT,2016,20000 kms,10.500.000,bensin
+Yamaha,Freego,2021,20000 kms,15.200.000,bensin
+Yamaha,Freego,2021,20000 kms,15.200.000,bensin
+Yamaha,Vixion,2016,5000 kms,8.950.000,bensin
+Honda,Vario,2014,45000 kms,10.000.000,bensin
+Honda,Scoopy,2021,40000 kms,16.800.000,bensin
+Yamaha,RX,1986,300000 kms,7.999.999,bensin
+Honda,Scoopy,2018,35000 kms,14.000.000,bensin
+Honda,Scoopy,2018,35000 kms,14.000.000,bensin
+Yamaha,MT 25,2019,5000 kms,45.500.000,bensin
+Yamaha,MT 25,2019,5000 kms,45.500.000,bensin
+Kawasaki,Ninja 250,2018,5000 kms,47.500.000,bensin
+Honda,Beat,2018,70000 kms,13.900.000,bensin
+Honda,PCX,2020,25000 kms,29.700.000,bensin
+Honda,Scoopy,2020,30000 kms,18.500.000,bensin
+Honda,Beat,2017,30000 kms,12.500.000,bensin
+Harley Davidson,Street,2014,25000 kms,395.000.000,bensin
+Honda,Supra,2011,25000 kms,9.250.000,bensin
+Honda,Supra,2011,20000 kms,9.250.000,bensin
+Piaggio,Primavera,2020,20000 kms,44.990.000,bensin
+Piaggio,Sprint,2021,5000 kms,58.850.000,bensin
+Piaggio,Primavera,2020,5000 kms,60.000.000,bensin
+Yamaha,Vixion,2015,60000 kms,11.000.000,bensin
+Honda,CBR,2019,10000 kms,24.500.000,bensin
+Yamaha,Lexi,2018,20000 kms,15.000.000,bensin
+Honda,Vario,2021,20000 kms,19.250.000,bensin
+Honda,Vario,2021,20000 kms,19.250.000,bensin
+Honda,Beat,2021,20000 kms,16.700.000,bensin
+Kawasaki,ZX,2023,5000 kms,385.000.000,bensin
+Honda,CB 150R,2016,5000 kms,16.500.000,bensin
+Honda,CB 150R,2016,5000 kms,16.500.000,bensin
+Honda,CBR,2016,15000 kms,16.500.000,bensin
+Yamaha,Mio,2022,5000 kms,14.500.000,bensin
+Yamaha,Mio,2018,5000 kms,10.900.000,bensin
+Honda,Tiger,2012,5000 kms,31.000.000,bensin
+Honda,Beat,2021,20000 kms,16.500.000,bensin
+Piaggio,Primavera,2023,5000 kms,53.000.000,bensin
+Piaggio,Primavera,2023,5000 kms,53.000.000,bensin
+Yamaha,NMAX,2023,5000 kms,31.300.000,bensin
+Lain-lain,Lain-lain,2020,15000 kms,20.500.000,bensin
+Honda,Vario,2017,70000 kms,14.500.000,bensin
+Honda,CRF250Rally,2023,5000 kms,32.899.000,bensin
+Yamaha,NMAX,2021,25000 kms,27.000.000,bensin
+Honda,CB 150R,2015,80000 kms,4.500.000,bensin
+Yamaha,NMAX,2021,45000 kms,25.500.000,bensin
+Honda,Vario,2020,30000 kms,20.000.000,bensin
+Honda,Vario,2020,30000 kms,20.000.000,bensin
+Honda,Vario,2020,30000 kms,20.000.000,bensin
+Yamaha,Aerox,2017,20000 kms,20.000.000,bensin
+Yamaha,Aerox,2017,20000 kms,20.000.000,bensin
+Honda,Vario,2020,30000 kms,20.000.000,bensin
+Honda,Vario,2020,30000 kms,20.000.000,bensin
+Honda,Vario,2020,30000 kms,20.000.000,bensin
+Honda,PCX,2019,20000 kms,28.500.000,bensin
+Honda,Scoopy,2020,20000 kms,18.500.000,bensin
+Honda,Scoopy,2020,20000 kms,18.500.000,bensin
+Honda,Supra,2016,20000 kms,10.500.000,bensin
+Kawasaki,Ninja 250,2022,10000 kms,59.000.000,bensin
+Kawasaki,Ninja 250,2022,10000 kms,59.000.000,bensin
+Honda,Scoopy,2020,20000 kms,18.500.000,bensin
+Honda,Scoopy,2020,20000 kms,18.500.000,bensin
+Honda,Scoopy,2020,20000 kms,18.500.000,bensin
+Honda,Scoopy,2020,20000 kms,18.500.000,bensin
+Honda,Vario,2014,30000 kms,12.500.000,bensin
+Kawasaki,Ninja 250,2020,25000 kms,42.000.000,bensin
+Honda,Vario,2014,30000 kms,12.500.000,bensin
+Honda,Vario,2014,30000 kms,12.500.000,bensin
+Honda,Vario,2014,30000 kms,12.500.000,bensin
+Honda,Vario,2014,30000 kms,12.500.000,bensin
+Honda,Vario,2014,30000 kms,12.500.000,bensin
+Yamaha,Aerox,2019,5000 kms,28.500.000,bensin
+Honda,Beat,2017,5000 kms,13.500.000,bensin
+Honda,Forza,2019,10000 kms,74.000.000,bensin
+Honda,PCX,2019,30000 kms,23.000.000,bensin
+Honda,Vario,2014,30000 kms,11.500.000,bensin
+Yamaha,NMAX,2021,10000 kms,29.000.000,bensin
+Yamaha,Mio,2016,55000 kms,8.250.000,bensin
+Yamaha,NMAX,2021,10000 kms,29.000.000,bensin
+Yamaha,Soul GT,2016,25000 kms,10.500.000,bensin
+Honda,Vario,2015,30000 kms,10.200.000,bensin
+Yamaha,Freego,2021,20000 kms,15.200.000,bensin
+Yamaha,Vixion,2013,15000 kms,10.850.000,bensin
+Yamaha,YZF R15,2022,5000 kms,36.000.000,bensin
+Kawasaki,Ninja,2013,5000 kms,50.500.000,bensin
+Honda,Beat,2015,55000 kms,10.850.000,bensin
+Kawasaki,ZX,1999,30000 kms,55.000.000,bensin
+Harley Davidson,Sportster,2013,25000 kms,235.000.000,bensin
+Yamaha,YZF R25,2016,35000 kms,33.800.000,bensin
+Kawasaki,Ninja 250,2018,20000 kms,48.000.000,bensin
+Kawasaki,Ninja 250,2022,5000 kms,28.500.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Honda,Vario,2011,25000 kms,8.350.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Kawasaki,Ninja 250,2018,10000 kms,43.000.000,bensin
+Honda,Scoopy,2021,15000 kms,17.750.000,bensin
+Honda,CBR,2023,5000 kms,61.000.000,bensin
+Honda,CBR,2023,5000 kms,61.000.000,bensin
+Honda,CBR,2023,5000 kms,61.000.000,bensin
+Honda,CRF250Rally,2023,10000 kms,31.420.000,bensin
+Honda,Vario,2020,5000 kms,19.700.000,bensin
+Honda,CB 150R,2021,30000 kms,24.500.000,bensin
+Honda,CB 150R,2021,30000 kms,24.500.000,bensin
+Honda,CB 150R,2021,30000 kms,24.500.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Honda,Vario,2018,25000 kms,16.800.000,bensin
+Honda,Vario,2018,20000 kms,16.800.000,bensin
+Piaggio,LX,2019,10000 kms,33.500.000,bensin
+Yamaha,YZF R15,2015,25000 kms,13.250.000,bensin
+Kawasaki,Z Series,2022,5000 kms,410.000.000,bensin
+Yamaha,NMAX,2019,15000 kms,23.000.000,bensin
+Honda,Beat,2018,40000 kms,12.400.000,bensin
+Honda,Beat,2023,5000 kms,18.200.000,bensin
+Honda,Scoopy,2023,5000 kms,20.700.000,bensin
+Yamaha,Mio,2014,85000 kms,7.600.000,bensin
+Honda,Supra,2016,25000 kms,11.800.000,bensin
+Honda,Beat,2019,15000 kms,13.000.000,bensin
+Honda,Beat,2021,15000 kms,14.800.000,bensin
+Yamaha,Fino,2024,5000 kms,26.500.000,bensin
+Yamaha,Mio,2021,15000 kms,16.000.000,bensin
+Honda,CB 150R,2016,5000 kms,16.500.000,bensin
+Kawasaki,Ninja 250,2016,5000 kms,33.900.000,bensin
+Yamaha,Byson,2012,5000 kms,19.000.000,bensin
+Yamaha,Xeon,2015,60000 kms,9.250.000,bensin
+Kawasaki,W800,2021,5000 kms,27.900.000,bensin
+Kawasaki,Z Series,2017,35000 kms,35.000.000,bensin
+Kawasaki,Z Series,2013,50000 kms,22.500.000,bensin
+Honda,CB,2022,25000 kms,27.000.000,bensin
+Yamaha,WR 250,2020,25000 kms,26.500.000,bensin
+Kawasaki,Ninja ER-6N,2013,20000 kms,64.500.000,bensin
+BMW,R NineT,2016,15000 kms,335.000.000,bensin
+Yamaha,Vixion,2014,5000 kms,10.000.000,bensin
+Benelli,BN,2017,20000 kms,29.500.000,bensin
+Piaggio,Sprint,2022,5000 kms,50.950.000,bensin
+Honda,Beat,2018,5000 kms,15.400.000,bensin
+Suzuki,Shogun,2002,105000 kms,4.000.000,bensin
+Yamaha,Fino,2023,5000 kms,21.800.000,bensin
+Kawasaki,Z Series,2015,15000 kms,30.000.000,bensin
+Honda,Vario,2016,5000 kms,17.700.000,bensin
+Honda,Vario,2022,20000 kms,22.700.000,bensin
+Honda,Beat,2009,25000 kms,6.800.000,bensin
+Honda,Supra,2016,20000 kms,10.400.000,bensin
+Honda,Scoopy,2016,5000 kms,13.800.000,bensin
+Yamaha,YZF R15,2014,5000 kms,16.500.000,bensin
+Honda,Supra,2004,55000 kms,5.000.000,bensin
+Honda,Beat,2013,5000 kms,9.500.000,bensin
+Honda,Vario,2022,10000 kms,26.500.000,bensin
+Kawasaki,Ninja 250,2022,10000 kms,59.000.000,bensin
+Lain-lain,Lain-lain,2022,5000 kms,55.000.000,bensin
+Honda,Vario,2017,85000 kms,13.750.000,bensin
+Piaggio,LX,2013,15000 kms,23.000.000,bensin
+Honda,Vario,2020,20000 kms,17.950.000,bensin
+Honda,Beat,2022,10000 kms,17.800.000,bensin
+Honda,Vario,2015,5000 kms,12.500.000,bensin
+Honda,CBR,2023,5000 kms,33.500.000,bensin
+Yamaha,YZF R15,2015,5000 kms,17.000.000,bensin
+Honda,Forza,2019,10000 kms,74.000.000,bensin
+Honda,Vario,2014,25000 kms,11.500.000,bensin
+Yamaha,NMAX,2021,10000 kms,29.000.000,bensin
+Yamaha,Freego,2019,20000 kms,16.500.000,bensin
+Yamaha,Fino,2022,20000 kms,19.000.000,bensin
+Honda,Vario,2020,55000 kms,19.500.000,bensin
+Honda,Beat,2014,50000 kms,8.000.000,bensin
+Honda,Beat,2015,35000 kms,10.000.000,bensin
+Honda,Supra,2017,20000 kms,11.800.000,bensin
+Honda,PCX,2019,20000 kms,26.500.000,bensin
+Yamaha,Mio,2009,100000 kms,4.900.000,bensin
+Honda,Revo,2020,15000 kms,10.000.000,bensin
+Honda,CBR,2017,25000 kms,39.500.000,bensin
+Kawasaki,ZX,2021,20000 kms,99.500.000,bensin
+KTM,RC,2019,10000 kms,280.000.000,bensin
+Suzuki,Satria,2013,25000 kms,7.450.000,bensin
+Yamaha,NMAX,2021,25000 kms,27.500.000,bensin
+Honda,PCX,2021,5000 kms,28.000.000,bensin
+Yamaha,MT 25,2019,5000 kms,45.500.000,bensin
+Piaggio,Vespa,1986,115000 kms,40.000.000,bensin
+Honda,CBR,2022,5000 kms,61.000.000,bensin
+Harley Davidson,Touring,2021,5000 kms,675.000.000,bensin
+Suzuki,GSX,2018,5000 kms,19.800.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Honda,Scoopy,2021,15000 kms,17.750.000,bensin
+Honda,Scoopy,2021,10000 kms,17.750.000,bensin
+Honda,Supra,2022,15000 kms,20.500.000,bensin
+Lain-lain,Lain-lain,2016,5000 kms,10.000.000,bensin
+Yamaha,Xmax,2022,15000 kms,32.000.000,bensin
+Honda,PCX,2020,5000 kms,25.500.000,bensin
+Honda,Vario,2022,5000 kms,19.800.000,bensin
+Kawasaki,Ninja 250,2020,5000 kms,28.500.000,bensin
+Yamaha,Jupiter,2001,40000 kms,4.000.000,bensin
+Honda,Beat,2022,20000 kms,15.850.000,bensin
+Honda,Beat,2019,300000 kms,11.000.000,bensin
+Honda,Beat,2019,55000 kms,13.500.000,bensin
+Yamaha,Freego,2020,5000 kms,16.500.000,bensin
+Yamaha,YZF R15,2015,25000 kms,13.250.000,bensin
+Honda,Supra,2017,60000 kms,9.750.000,bensin
+Suzuki,Shogun,2010,75000 kms,6.500.000,bensin
+Yamaha,Fazer,2022,5000 kms,19.950.000,bensin
+Honda,Scoopy,2019,20000 kms,13.000.000,bensin
+Kawasaki,Ninja ER-6N,2013,20000 kms,64.500.000,bensin
+Honda,CBR,2017,25000 kms,39.500.000,bensin
+Yamaha,WR 250,2020,25000 kms,26.500.000,bensin
+Honda,Vario,2017,25000 kms,16.500.000,bensin
+Kawasaki,Z Series,2013,40000 kms,28.500.000,bensin
+Honda,CBR,2017,25000 kms,17.600.000,bensin
+Honda,CBR,2023,5000 kms,33.500.000,bensin
+Kawasaki,Ninja 250,2019,15000 kms,41.000.000,bensin
+Honda,CBR,2016,20000 kms,16.600.000,bensin
+Honda,Beat,2022,5000 kms,17.000.000,bensin
+Honda,CBR,2019,15000 kms,20.000.000,bensin
+Honda,CB 150R,2016,5000 kms,13.500.000,bensin
+Honda,CB 150R,2016,5000 kms,13.500.000,bensin
+Honda,Vario,2018,20000 kms,18.500.000,bensin
+Yamaha,YZF R15,2018,15000 kms,26.500.000,bensin
+Yamaha,YZF R15,2023,5000 kms,37.000.000,bensin
+Yamaha,NMAX,2019,45000 kms,24.300.000,bensin
+Yamaha,Soul GT,2016,35000 kms,11.000.000,bensin
+Yamaha,Xabre,2016,5000 kms,20.500.000,bensin
+Kawasaki,Ninja 250,2018,15000 kms,47.500.000,bensin
+Honda,Vario,2017,35000 kms,15.500.000,bensin
+Yamaha,NMAX,2017,30000 kms,19.700.000,bensin
+Honda,Revo,2020,5000 kms,12.500.000,bensin
+Honda,PCX,2019,25000 kms,22.500.000,bensin
+Honda,Beat,2018,45000 kms,12.200.000,bensin
+Honda,Vario,2018,20000 kms,16.500.000,bensin
+Honda,PCX,2019,25000 kms,22.500.000,bensin
+Honda,Vario,2013,15000 kms,10.500.000,bensin
+Yamaha,Fino,2008,35000 kms,34.950.000,bensin
+Piaggio,Vespa,1986,10000 kms,32.000.000,bensin
+Honda,Scoopy,2018,40000 kms,15.500.000,bensin
+Honda,Beat,2022,5000 kms,16.000.000,bensin
+Yamaha,Vixion,2015,120000 kms,13.500.000,bensin
+Honda,Vario,2010,5000 kms,4.200.000,bensin
+Yamaha,YZF R15,2023,5000 kms,36.500.000,bensin
+Honda,CRF250Rally,2022,15000 kms,33.500.000,bensin
+Honda,CBR,2018,5000 kms,23.000.000,bensin
+Honda,CB 150R,2017,15000 kms,18.500.000,bensin
+BMW,S 1000,2022,5000 kms,460.000.000,bensin
+Honda,Beat,2013,10000 kms,8.700.000,bensin
+Yamaha,Aerox,2017,40000 kms,18.000.000,bensin
+Yamaha,Scorpio,2011,55000 kms,10.000.000,bensin
+Kawasaki,Z Series,2022,5000 kms,480.000.000,bensin
+Yamaha,NMAX,2017,20000 kms,19.700.000,bensin
+Yamaha,Aerox,2017,15000 kms,19.800.000,bensin
+Aprilia,RS Sport,2022,5000 kms,290.000.000,bensin
+Harley Davidson,Sportster,2010,25000 kms,295.000.000,bensin
+Honda,CBR,2020,15000 kms,25.000.000,bensin
+Ducati,Diavel Carbon,2012,5000 kms,350.000.000,bensin
+Harley Davidson,Softail,2019,10000 kms,675.000.000,bensin
+Kawasaki,ZX,2023,5000 kms,480.000.000,bensin
+Harley Davidson,Touring,2023,5000 kms,710.000.000,bensin
+Harley Davidson,Touring,2013,20000 kms,510.000.000,bensin
+Ducati,Panigale,2022,5000 kms,535.000.000,bensin
+Kawasaki,ZX,2019,15000 kms,350.000.000,bensin
+Harley Davidson,Sportster,2019,10000 kms,475.000.000,bensin
+Suzuki,GSX,2017,20000 kms,18.500.000,bensin
+Kawasaki,ZX,2023,5000 kms,390.000.000,bensin
+Yamaha,Jupiter,2014,85000 kms,10.500.000,bensin
+Lain-lain,Lain-lain,2018,5000 kms,450.000.000,bensin
+Honda,CBR,2023,5000 kms,73.000.000,bensin
+Lain-lain,Lain-lain,2021,5000 kms,455.000.000,bensin
+Piaggio,Vespa,2023,5000 kms,390.000.000,bensin
+Piaggio,GTS,2022,5000 kms,75.000.000,bensin
+BMW,R NineT,2019,5000 kms,330.000.000,bensin
+Honda,Forza,2018,10000 kms,72.000.000,bensin
+Honda,Monkey,2021,5000 kms,80.000.000,bensin
+Honda,Monkey,2023,5000 kms,89.000.000,bensin
+Ducati,Diavel Carbon,2012,15000 kms,475.000.000,bensin
+Yamaha,Xmax,2023,5000 kms,68.500.000,bensin
+Honda,Monkey,2023,5000 kms,96.000.000,bensin
+Honda,Little Cub,2023,5000 kms,38.000.000,bensin
+Honda,Monkey,2023,5000 kms,96.000.000,bensin
+Honda,Little Cub,2023,5000 kms,38.000.000,bensin
+Honda,Zoomer,2023,5000 kms,38.000.000,bensin
+Yamaha,Fino,2021,5000 kms,92.500.000,bensin
+Piaggio,Vespa,1986,5000 kms,465.000.000,bensin
+Yamaha,YZF R25,2019,5000 kms,80.000.000,bensin
+Honda,Forza,2019,10000 kms,74.000.000,bensin
+Piaggio,Vespa,1986,5000 kms,130.000.000,bensin
+Piaggio,Vespa,1986,5000 kms,65.000.000,bensin
+Piaggio,Vespa,1986,5000 kms,970.000.000,bensin
+Piaggio,Vespa,1986,5000 kms,130.000.000,bensin
+Honda,Beat,2019,5000 kms,15.900.000,bensin
+Piaggio,Vespa,1986,5000 kms,335.000.000,bensin
+Piaggio,Vespa,1986,5000 kms,675.000.000,bensin
+Piaggio,Vespa,1986,5000 kms,117.500.000,bensin
+Kawasaki,Z Series,2014,25000 kms,15.500.000,bensin
+Honda,Supra,2019,5000 kms,12.500.000,bensin
+Yamaha,YZF R15,2014,5000 kms,16.500.000,bensin
+Honda,Revo,2019,40000 kms,8.500.000,bensin
+Yamaha,NMAX,2021,10000 kms,28.500.000,bensin
+Suzuki,Nex,2018,40000 kms,9.700.000,bensin
+Honda,Vario,2022,5000 kms,25.500.000,bensin
+Honda,CB 150R,2019,15000 kms,17.250.000,bensin
+Yamaha,Mio,2022,5000 kms,16.900.000,bensin
+Honda,Scoopy,2021,15000 kms,19.000.000,bensin
+Honda,Revo,2012,5000 kms,8.000.000,bensin
+Yamaha,Soul GT,2012,35000 kms,7.500.000,bensin
+Honda,CRF250Rally,2023,5000 kms,31.300.000,bensin
+Honda,Beat,2023,5000 kms,17.000.000,bensin
+Yamaha,Aerox,2019,15000 kms,22.000.000,bensin
+Yamaha,NMAX,2021,10000 kms,29.500.000,bensin
+Yamaha,Xmax,2017,15000 kms,44.500.000,bensin
+Yamaha,Mio,2011,25000 kms,5.950.000,bensin
+Yamaha,Freego,2022,15000 kms,20.500.000,bensin
+Honda,Vario,2013,25000 kms,11.300.000,bensin
+Yamaha,NMAX,2022,10000 kms,26.500.000,bensin
+Honda,PCX,2019,20000 kms,25.000.000,bensin
+Honda,Vario,2019,45000 kms,17.600.000,bensin
+Suzuki,Shogun,1997,60000 kms,6.900.000,bensin
+Honda,CBR,2019,5000 kms,24.000.000,bensin
+Honda,Beat,2014,5000 kms,9.800.000,bensin
+Yamaha,YZF R15,2018,10000 kms,23.000.000,bensin
+Yamaha,Lexi,2019,5000 kms,15.500.000,bensin
+Yamaha,Aerox,2019,15000 kms,22.000.000,bensin
+Honda,CB 150R,2020,5000 kms,21.000.000,bensin
+Honda,Vario,2018,20000 kms,16.500.000,bensin
+Honda,Beat,2022,35000 kms,14.500.000,bensin
+Honda,Beat,2021,15000 kms,16.900.000,bensin
+Kawasaki,Estrella,2020,35000 kms,22.750.000,bensin
+Yamaha,Mio,2008,60000 kms,5.000.000,bensin
+Honda,Supra,2011,25000 kms,10.000.000,bensin
+Honda,Supra,2018,5000 kms,14.800.000,bensin
+Yamaha,Mio,2021,10000 kms,16.900.000,bensin
+Kawasaki,Ninja 250,2019,5000 kms,49.000.000,bensin
+Honda,Spacy,2012,70000 kms,6.900.000,bensin
+Suzuki,GSX,2022,20000 kms,18.500.000,bensin
+Honda,CB 150R,2017,15000 kms,18.500.000,bensin
+Yamaha,NMAX,2017,25000 kms,19.700.000,bensin
+Honda,CBR,2020,15000 kms,25.000.000,bensin
+Honda,PCX,2021,35000 kms,27.000.000,bensin
+Honda,Beat,2023,20000 kms,17.000.000,bensin
+Honda,Vario,2008,85000 kms,5.000.000,bensin
+Yamaha,Lexi,2022,15000 kms,22.000.000,bensin
+Honda,Beat,2023,10000 kms,17.300.000,bensin
+Honda,Vario,2023,5000 kms,21.300.000,bensin
+Honda,Vario,2022,5000 kms,24.500.000,bensin
+Yamaha,Fino,2019,25000 kms,13.500.000,bensin
+Honda,Scoopy,2021,5000 kms,17.900.000,bensin
+Yamaha,Fino,2019,20000 kms,13.500.000,bensin
+Aprilia,Aprilia SR,2022,5000 kms,50.000.000,bensin
+Honda,Vario,2014,45000 kms,10.500.000,bensin
+Honda,Scoopy,2022,15000 kms,19.750.000,bensin
+Yamaha,Vixion,2015,55000 kms,13.750.000,bensin
+Honda,Beat,2022,10000 kms,17.800.000,bensin
+Honda,Beat,2021,5000 kms,16.500.000,bensin
+Honda,Beat,2021,45000 kms,13.200.000,bensin
+Honda,PCX,2022,20000 kms,31.400.000,bensin
+Honda,Beat,2020,35000 kms,16.200.000,bensin
+Yamaha,Xabre,2016,35000 kms,14.500.000,bensin
+Yamaha,Nuovo,2005,25000 kms,3.000.000,bensin
+Piaggio,Vespa 125,2023,5000 kms,58.000.000,bensin
+Honda,Vario,2013,35000 kms,10.200.000,bensin
+Honda,Beat,2015,5000 kms,10.400.000,bensin
+Honda,Beat,2018,5000 kms,12.800.000,bensin
+Honda,Beat,2011,5000 kms,7.800.000,bensin
+Honda,Beat,2023,5000 kms,17.000.000,bensin
+Honda,PCX,2021,15000 kms,26.500.000,bensin
+Piaggio,Vespa,2022,5000 kms,55.000.000,bensin
+Yamaha,Mio,2014,35000 kms,5.500.000,bensin
+Yamaha,WR 250,2020,25000 kms,26.500.000,bensin
+Honda,Supra,2010,90000 kms,8.500.000,bensin
+Honda,CBR,2019,45000 kms,17.500.000,bensin
+Honda,Scoopy,2016,40000 kms,11.300.000,bensin
+Yamaha,YZF R15,2014,40000 kms,17.000.000,bensin
+Yamaha,YZF R15,2014,40000 kms,17.000.000,bensin
+Honda,Vario,2014,50000 kms,10.000.000,bensin
+Kawasaki,Z Series,2013,20000 kms,174.900.000,bensin
+Yamaha,Fino,2019,20000 kms,13.500.000,bensin
+Honda,Beat,2019,5000 kms,15.397.000,bensin
+Yamaha,Soul GT,2012,20000 kms,7.900.000,bensin
+Yamaha,Soul GT,2012,20000 kms,7.900.000,bensin
+Yamaha,NMAX,2023,5000 kms,31.250.000,bensin
+Yadea,Lain-lain,2024,5000 kms,14.850.000,listrik
+Winifly,Lain-lain,2023,5000 kms,5.000.000,listrik
+Alva,Lain-lain,2023,5000 kms,28.999.999,listrik
+Alva,Lain-lain,2023,5000 kms,9.500.000,listrik
+Smoot,Lain-lain,2022,10000 kms,10.400.000,listrik
+Goda,Lain-lain,2023,40000 kms,3.500.000,listrik
+Alva,Lain-lain,2023,5000 kms,35.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,8.000.000,listrik
+Smoot,Lain-lain,2022,10000 kms,6.650.000,listrik
+Yadea,Lain-lain,2023,5000 kms,10.800.000,listrik
+Yadea,Lain-lain,2023,5000 kms,10.800.000,listrik
+Yadea,Lain-lain,2023,5000 kms,6.000.000,listrik
+Gesits,Lain-lain,2022,5000 kms,19.000.000,listrik
+Yadea,Lain-lain,2023,5000 kms,15.513.000,listrik
+Yadea,Lain-lain,2023,5000 kms,14.500.000,listrik
+Uwinifly,Lain-lain,2022,5000 kms,8.450.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,8.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,13.500.000,listrik
+Smoot,Lain-lain,2023,10000 kms,11.500.000,listrik
+Agats,Lain-lain,2023,5000 kms,20.499.000,listrik
+Uwinifly,Lain-lain,2022,5000 kms,6.500.000,listrik
+Smoot,Lain-lain,2022,10000 kms,10.000.000,listrik
+Alva,Lain-lain,2024,5000 kms,29.490.000,listrik
+Genio,Lain-lain,2023,5000 kms,3.500.000,listrik
+Uwinifly,Lain-lain,2023,10000 kms,8.500.000,listrik
+Yadea,Lain-lain,2023,5000 kms,9.800.000,listrik
+Yadea,Lain-lain,2023,5000 kms,12.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,8.000.000,listrik
+Uwinifly,Lain-lain,2023,10000 kms,10.000.000,listrik
+Gesits,Lain-lain,2023,10000 kms,20.000.000,listrik
+Uwinifly,Lain-lain,2023,75000 kms,7.000.000,listrik
+Exsotik,Lain-lain,2023,20000 kms,8.500.000,listrik
+Exsotik,Lain-lain,2023,5000 kms,8.800.000,listrik
+Uwinifly,Lain-lain,2023,40000 kms,9.000.000,listrik
+Smoot,Lain-lain,2022,10000 kms,10.300.000,listrik
+Uwinifly,Lain-lain,2022,5000 kms,9.500.000,listrik
+Gesits,Lain-lain,2022,5000 kms,22.000.000,listrik
+Alva,Lain-lain,2023,5000 kms,3.000.000,listrik
+Exsotik,Lain-lain,2023,10000 kms,8.650.000,listrik
+Goda,Lain-lain,2023,10000 kms,9.000.000,listrik
+Uwinifly,Lain-lain,2022,5000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,5.250.000,listrik
+Exsotik,Lain-lain,2023,5000 kms,3.750.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,7.300.000,listrik
+Goda,Lain-lain,2022,15000 kms,700.000,listrik
+Goda,Lain-lain,2023,5000 kms,9.000.000,listrik
+Yadea,Lain-lain,2023,5000 kms,14.500.000,listrik
+Volta,Lain-lain,2023,15000 kms,10.500.000,listrik
+Volta,Lain-lain,2021,10000 kms,6.000.000,listrik
+Exsotik,Lain-lain,2023,20000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,8.000.000,listrik
+Selis,Lain-lain,2023,5000 kms,8.500.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,6.700.000,listrik
+Selis,Lain-lain,2022,45000 kms,6.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,7.900.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,7.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,7.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,16.000.000,listrik
+Yadea,Lain-lain,2024,5000 kms,15.100.000,listrik
+Yadea,Lain-lain,2024,5000 kms,14.850.000,listrik
+Smoot,Lain-lain,2022,10000 kms,10.600.000,listrik
+Selis,Lain-lain,2022,5000 kms,5.000.000,listrik
+Tangkas,Lain-lain,2022,15000 kms,11.000.000,listrik
+Tangkas,Lain-lain,2023,5000 kms,12.000.000,listrik
+Tangkas,Lain-lain,2023,5000 kms,16.000.000,listrik
+Uwinifly,Lain-lain,2023,10000 kms,8.000.000,listrik
+Smoot,Lain-lain,2023,5000 kms,12.500.000,listrik
+Smoot,Lain-lain,2023,5000 kms,14.000.000,listrik
+Tangkas,Lain-lain,2024,5000 kms,10.399.000,listrik
+Yadea,Lain-lain,2023,10000 kms,500.000,listrik
+Alva,Lain-lain,2023,15000 kms,25.000.000,listrik
+Uwinifly,Lain-lain,2022,10000 kms,6.800.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,10.000.000,listrik
+Volta,Lain-lain,2023,5000 kms,7.500.000,listrik
+Alva,Lain-lain,2023,5000 kms,9.000.000,listrik
+Alva,Lain-lain,2023,5000 kms,32.000.000,listrik
+Smoot,Lain-lain,2024,5000 kms,5.000.000,listrik
+Smoot,Lain-lain,2023,10000 kms,14.000.000,listrik
+United,Lain-lain,2024,5000 kms,24.500.000,listrik
+United,Lain-lain,2023,5000 kms,16.900.000,listrik
+United,Lain-lain,2024,5000 kms,9.900.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,6.000.000,listrik
+Uwinifly,Lain-lain,2024,5000 kms,9.100.000,listrik
+Yadea,Lain-lain,2023,5000 kms,14.500.000,listrik
+Volta,Lain-lain,2023,5000 kms,10.000.000,listrik
+Yadea,Lain-lain,2023,5000 kms,14.500.000,listrik
+Yadea,Lain-lain,2023,5000 kms,23.000.000,listrik
+Uwinifly,Lain-lain,2023,45000 kms,4.100.000,listrik
+Uwinifly,Lain-lain,2022,5000 kms,7.000.000,listrik
+Smoot,Lain-lain,2023,5000 kms,11.000.000,listrik
+Selis,Lain-lain,2023,5000 kms,5.000.000,listrik
+Genio,Lain-lain,2023,45000 kms,4.900.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,9.500.000,listrik
+Viar,Lain-lain,2021,25000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2022,40000 kms,7.800.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,30000 kms,8.000.000,listrik
+Voxa,Lain-lain,2023,45000 kms,3.300.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,10.000.000,listrik
+Smoot,Lain-lain,2023,5000 kms,10.000.000,listrik
+Smoot,Lain-lain,2022,10000 kms,20.000.000,listrik
+Yadea,Lain-lain,2023,5000 kms,7.000.000,listrik
+Exsotik,Lain-lain,2023,5000 kms,7.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,8.000.000,listrik
+United,Lain-lain,2023,5000 kms,22.500.000,listrik
+United,Lain-lain,2023,5000 kms,22.500.000,listrik
+United,Lain-lain,2023,5000 kms,10.000.000,listrik
+Smoot,Lain-lain,2023,5000 kms,15.000.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,8.500.000,listrik
+Volta,Lain-lain,2021,5000 kms,4.000.000,listrik
+United,Lain-lain,2023,5000 kms,10.300.000,listrik
+United,Lain-lain,2023,5000 kms,12.500.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,8.500.000,listrik
+Yadea,Lain-lain,2023,5000 kms,16.900.000,listrik
+Winifly,Lain-lain,2024,5000 kms,7.999.000,listrik
+Yadea,Lain-lain,2022,5000 kms,6.500.000,listrik
+Uwinifly,Lain-lain,2017,5000 kms,1.500.000,listrik
+Yadea,Lain-lain,2023,5000 kms,11.500.000,listrik
+Yadea,Lain-lain,2023,5000 kms,14.000.000,listrik
+Uwinifly,Lain-lain,2023,60000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,60000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,60000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,5000 kms,10.000.000,listrik
+Uwinifly,Lain-lain,2023,60000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,60000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,55000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,60000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2023,60000 kms,7.500.000,listrik
+Uwinifly,Lain-lain,2022,5000 kms,8.500.000,listrik
+Vespa,Lain-lain,2023,10000 kms,34.900.000,listrik
+Selis,Lain-lain,2019,10000 kms,6.000.000,listrik
+Yadea,Lain-lain,2023,5000 kms,8.499.000,listrik
+Uwinifly,Lain-lain,2022,5000 kms,2.950.000,listrik
+Selis,Lain-lain,2023,5000 kms,10.000.000,listrik
+Smoot,Lain-lain,2022,10000 kms,9.500.000,listrik
+Smoot,Lain-lain,2020,5000 kms,2.500.000,listrik
+Smoot,Lain-lain,2023,5000 kms,10.300.000,listrik
+Smoot,Lain-lain,2022,5000 kms,8.500.000,listrik
+Smoot,Lain-lain,2023,5000 kms,3.000.000,listrik
