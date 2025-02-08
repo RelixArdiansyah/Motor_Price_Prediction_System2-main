@@ -234,12 +234,6 @@ def crud():
                 save_data(motor_data)
                 flash('Data berhasil dihapus.', 'success')
 
-            elif action == 'run_notebook':
-                subprocess.run(
-                    ['jupyter', 'nbconvert', '--to', 'notebook', '--execute', 'PrediksiHargaMotorJadi.ipynb'],
-                    check=True
-                )
-                flash('Notebook berhasil dijalankan.', 'success')
 
         except Exception as e:
             flash(f'Error dalam operasi: {str(e)}', 'danger')
@@ -251,23 +245,21 @@ def crud():
 
     return render_template('crud.html', motor_data=motor_data.to_dict(orient='records'))
 
-@app.route('/run_notebook', methods=['POST'])
-def run_notebook():
+@app.route('/run_script', methods=['POST'])
+def run_script():
     try:
-        # Tentukan jalur lengkap ke notebook
-        notebook_path = os.path.abspath("PrediksiHargaMotorJadi.ipynb")
-        # Jalankan notebook menggunakan Python
-        subprocess.run(
-            ['python', '-m', 'jupyter', 'nbconvert', '--to', 'notebook', '--execute', notebook_path, '--output', notebook_path],
-            check=True
-        )
-        flash('Notebook berhasil dijalankan.', 'success')
-    except subprocess.CalledProcessError as e:
-        flash(f'Gagal menjalankan notebook: Error dalam proses eksekusi.', 'danger')
+        # Tentukan jalur lengkap ke script Python
+        script_path = os.path.abspath("PrediksiHargaMotorJadi2.py")
+        # Jalankan script menggunakan Python
+        subprocess.run(['python', script_path], check=True)
+        flash('Script berhasil dijalankan.', 'success')
+    except subprocess.CalledProcessError:
+        flash('Gagal menjalankan script: Error dalam proses eksekusi.', 'danger')
     except Exception as e:
-        flash(f'Gagal menjalankan notebook: {str(e)}', 'danger')
+        flash(f'Gagal menjalankan script: {str(e)}', 'danger')
     return redirect(url_for('crud'))
-print(os.path.abspath("PrediksiHargaMotorJadi.ipynb"))
+
+print(os.path.abspath("PrediksiHargaMotorJadi2.py"))
 
 
 if __name__ == '__main__':
