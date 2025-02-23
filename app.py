@@ -7,6 +7,11 @@ from flask_bcrypt import Bcrypt
 import mysql.connector
 from mysql.connector import Error
 import subprocess
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+import seaborn as sns
+import io
+import base64
 
 # Inisialisasi aplikasi Flask
 app = Flask(__name__)
@@ -46,8 +51,6 @@ def create_user_table():
                                 password VARCHAR(255) NOT NULL)''')
             conn.commit()
             cursor.close()
-    except Error as e:
-        print(f"Error: {e}")
     finally:
         if conn.is_connected():
             conn.close()
@@ -159,16 +162,18 @@ def index():
     prediction = None
     r_squared = None
     intercept = None
+    graph_url = None  # Untuk menyimpan grafik harga motor
+
+    selected_company = request.form.get('company')
+    selected_name = request.form.get('motor_name')
+    selected_fuel = request.form.get('fuel')
 
     if request.method == 'POST':
         try:
-            selected_company = encode_value('company', request.form.get('company'))
-            selected_name = encode_value('name', request.form.get('motor_name'))
             selected_year = int(request.form.get('year'))
-            selected_fuel = encode_value('fuel_type', request.form.get('fuel'))
             selected_kilo = int(request.form.get('kilo'))
 
-            filename = f"file_pkl/MotorPriceModel_{request.form.get('company')}_{request.form.get('motor_name')}_{request.form.get('fuel')}.pkl"
+            filename = f"file_pkl/MotorPriceModel_{selected_company}_{selected_name}_{selected_fuel}.pkl"
             
             if not os.path.exists(filename):
                 flash('Model tidak tersedia untuk kombinasi tersebut.', 'danger')
@@ -180,15 +185,41 @@ def index():
                 r_squared = model_data.get('r_squared', None)
                 intercept = model_data.get('intercept', None)
                 
-                input_data = pd.DataFrame([[selected_year, selected_kilo, selected_company, selected_name, selected_fuel]],
+                input_data = pd.DataFrame([[selected_year, selected_kilo, 
+                                            encode_value('company', selected_company), 
+                                            encode_value('name', selected_name), 
+                                            encode_value('fuel_type', selected_fuel)]],
                                           columns=['year', 'kms_driven', 'company', 'name', 'fuel_type'])
                 prediction = model.predict(input_data)[0]
         
         except Exception as e:
             flash(f'Error: {str(e)}', 'danger')
-    
+
+    # **Membuat Grafik Berdasarkan Pilihan Pengguna**
+    if selected_company and selected_name:
+        filtered_data = motor[(motor['company'] == selected_company) & (motor['name'] == selected_name)]
+        
+        if not filtered_data.empty:
+            plt.figure(figsize=(8, 5))
+            sns.lineplot(data=filtered_data, x="year", y="price", marker="o", color="orange")
+            plt.xlabel("Tahun")
+            plt.ylabel("Harga (Juta Rp)")
+            plt.title(f"Tren Harga Motor {selected_name} ({selected_company})")
+
+            # Format sumbu Y ke dalam juta (contoh: 12.560.000 → 12.6)
+            plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{x/1_000_000:.1f}'))
+
+            # Simpan gambar sebagai Base64
+            img = io.BytesIO()
+            plt.savefig(img, format="png", bbox_inches="tight")
+            img.seek(0)
+            graph_url = base64.b64encode(img.getvalue()).decode()
+            plt.close()  # Hindari memory leak
+
     return render_template('index.html', companies=companies, fuel_types=fuel_types, years=years, 
-                           prediction=prediction, r_squared=r_squared, intercept=intercept)
+                           prediction=prediction, r_squared=r_squared, intercept=intercept,
+                           graph_url=graph_url)
+
 
 
 @app.route('/logout')

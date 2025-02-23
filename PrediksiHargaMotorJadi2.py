@@ -1,9 +1,8 @@
-import pandas as pd
-from sklearn.linear_model import LinearRegression
-import pickle
 import os
-import shutil
-import json  # Untuk menyimpan dan membaca mapping
+import pickle
+import pandas as pd
+import json
+from sklearn.linear_model import LinearRegression
 
 # Membaca dataset
 motor = pd.read_csv('olx.csv')
@@ -37,41 +36,40 @@ motor.to_csv('olx_cleaned.csv', index=False)
 if not os.path.exists('file_pkl'):
     os.makedirs('file_pkl')
 
-# Fungsi untuk melatih model dan menyimpan hasil regresi
+# Menyimpan model yang memiliki cukup data
+valid_motor_data = []
+
 def train_model(company, motor_model, fuel_type):
-    # Filter data untuk kombinasi tertentu
+    global valid_motor_data
     filtered_motor = motor[
         (motor['company'] == company) & 
         (motor['name'] == motor_model) & 
         (motor['fuel_type'] == fuel_type)
     ]
-
-    # Pastikan ada cukup data untuk melatih model
-    if len(filtered_motor) < 2:
-        print(f"Not enough data for company: {company}, model: {motor_model}, fuel: {fuel_type}")
+    
+    if len(filtered_motor) < 4:
+        print(f"❌ Model SKIP - Data tidak cukup: {company}, {motor_model}, {fuel_type}")
         return None
+    
+    # Simpan data yang valid
+    valid_motor_data.append(filtered_motor)
 
-    # Definisi fitur dan target
     X = filtered_motor[['year', 'kms_driven', 'company', 'name', 'fuel_type']]
     y = filtered_motor['price']
 
-    # Melatih model regresi linear
     model = LinearRegression()
     model.fit(X, y)
 
-    # Menghitung nilai R² (koefisien determinasi)
     r_squared = model.score(X, y)
     intercept = model.intercept_
     
-    print(f"Model trained: {company}, {motor_model}, {fuel_type}")
-    print(f"R² Score: {r_squared:.4f}, Intercept: {intercept:.2f}")
-
-    # Mendapatkan nama asli dari encoding
+    print(f"✅ Model Trained: {company}, {motor_model}, {fuel_type}")
+    print(f"   ➝ R² Score: {r_squared:.4f}, Intercept: {intercept:.2f}")
+    
     company_name = [k for k, v in mappings['company'].items() if v == company][0]
     model_name = [k for k, v in mappings['name'].items() if v == motor_model][0]
     fuel_name = [k for k, v in mappings['fuel_type'].items() if v == fuel_type][0]
 
-    # Menyimpan model, nilai R², dan intercept
     model_data = {
         'model': model,
         'r_squared': r_squared,
@@ -79,12 +77,12 @@ def train_model(company, motor_model, fuel_type):
     }
     
     filename = f"MotorPriceModel_{company_name}_{model_name}_{fuel_name}.pkl"
-    with open(filename, 'wb') as f:
-        pickle.dump(model_data, f)
+    filepath = os.path.join('file_pkl', filename)
     
-    shutil.move(filename, os.path.join('file_pkl', filename))
-    print(f"Model saved: file_pkl/{filename}")
+    with open(filepath, 'wb') as f:
+        pickle.dump(model_data, f)
 
+    print(f"   ➝ Model Saved: {filepath}")
     return filename
 
 # Melatih model untuk setiap kombinasi unik dari company, name, dan fuel_type
@@ -93,15 +91,16 @@ for company in motor['company'].unique():
         for fuel_type in motor[(motor['company'] == company) & (motor['name'] == motor_model)]['fuel_type'].unique():
             train_model(company, motor_model, fuel_type)
 
-# Mengembalikan data ke nama aslinya
-with open('mappings.json', 'r') as f:
-    mappings = json.load(f)
+# Gabungkan kembali hanya data yang valid dan simpan ke olx_cleaned2.csv
+if valid_motor_data:
+    cleaned_motor = pd.concat(valid_motor_data, ignore_index=True)
+    
+    # Mengembalikan data ke nama aslinya
+    for col in columns_to_encode:
+        reverse_mapping = {v: k for k, v in mappings[col].items()}
+        cleaned_motor[col] = cleaned_motor[col].map(reverse_mapping)
 
-for col in columns_to_encode:
-    reverse_mapping = {v: k for k, v in mappings[col].items()}
-    motor[col] = motor[col].map(reverse_mapping)
-
-# Simpan dataset yang telah dikembalikan ke nama aslinya
-motor.to_csv('olx_cleaned2.csv', index=False)
-
-print("Proses selesai.")
+    cleaned_motor.to_csv('olx_cleaned2.csv', index=False)
+    print("\n🎉 **Proses Selesai! Dataset disimpan ke olx_cleaned2.csv**")
+else:
+    print("\n⚠️ Tidak ada model yang memenuhi syarat. olx_cleaned2.csv tidak diperbarui.")

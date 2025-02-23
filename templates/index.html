@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prediksi Harga Motor</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .loader {
+            display: none;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -24,31 +40,27 @@
         <main>
             <section class="intro">
                 <h2>Tentang Aplikasi</h2>
-                <p>Aplikasi ini membantu Anda memprediksi harga motor berdasarkan informasi seperti perusahaan, model motor, tahun, jenis bahan bakar, dan jarak tempuh. Masukkan informasi yang diminta untuk mendapatkan estimasi harga motor.</p>
+                <p>Aplikasi ini membantu Anda memprediksi harga motor berdasarkan informasi seperti perusahaan, model motor, tahun, jenis bahan bakar, dan jarak tempuh.</p>
             </section>
 
             <section class="form-section">
                 <h2>Prediksi Harga Motor</h2>
-                <form method="POST">
+                <form method="POST" onsubmit="return validateForm()">
                     <div class="form-group">
                         <label for="company">Perusahaan:</label>
                         <select name="company" id="company" required>
                             <option value="">Pilih Perusahaan</option>
                             {% for company in companies %}
-                                <option value="{{ company }}" {% if company == request.form.get('company') %}selected{% endif %}>{{ company }}</option>
+                                <option value="{{ company }}">{{ company }}</option>
                             {% endfor %}
                         </select>
+                        <span class="loader" id="loader"></span>
                     </div>
 
                     <div class="form-group">
                         <label for="motor_model">Model Motor:</label>
                         <select name="motor_name" id="motor_model" required>
                             <option value="">Pilih Model Motor</option>
-                            {% if motor_models %}
-                                {% for model in motor_models %}
-                                    <option value="{{ model }}" {% if model == request.form.get('motor_name') %}selected{% endif %}>{{ model }}</option>
-                                {% endfor %}
-                            {% endif %}
                         </select>
                     </div>
 
@@ -57,7 +69,7 @@
                         <select name="year" id="year" required>
                             <option value="">Pilih Tahun</option>
                             {% for year in years %}
-                                <option value="{{ year }}" {% if year == request.form.get('year')|int %}selected{% endif %}>{{ year }}</option>
+                                <option value="{{ year }}">{{ year }}</option>
                             {% endfor %}
                         </select>
                     </div>
@@ -67,14 +79,14 @@
                         <select name="fuel" id="fuel" required>
                             <option value="">Pilih Bahan Bakar</option>
                             {% for fuel in fuel_types %}
-                                <option value="{{ fuel }}" {% if fuel == request.form.get('fuel') %}selected{% endif %}>{{ fuel }}</option>
+                                <option value="{{ fuel }}">{{ fuel }}</option>
                             {% endfor %}
                         </select>
                     </div>
 
                     <div class="form-group">
                         <label for="kilo">Kilometer:</label>
-                        <input type="number" name="kilo" id="kilo" value="{{ request.form.get('kilo') }}" required>
+                        <input type="number" name="kilo" id="kilo" placeholder="Masukkan jumlah kilometer" required>
                     </div>
 
                     <button type="submit">Prediksi</button>
@@ -89,13 +101,26 @@
                     <p>Masukkan informasi untuk memprediksi harga motor.</p>
                 {% endif %}
             </section>
+            <section class="chart-section">
+                <h2>Tren Harga Motor</h2>
+                {% if graph_url %}
+                    <img src="data:image/png;base64,{{ graph_url }}" alt="Grafik Harga Motor">
+                {% else %}
+                    <p>Pilih perusahaan dan model motor untuk melihat grafik harga.</p>
+                {% endif %}
+            </section>                      
         </main>
     </div>
 
     <script>
         document.getElementById('company').addEventListener('change', function () {
             var company = this.value;
+            var loader = document.getElementById('loader');
+            var motorModelSelect = document.getElementById('motor_model');
+            
+            motorModelSelect.innerHTML = '<option value="">Pilih Model Motor</option>';
             if (company) {
+                loader.style.display = 'inline-block';
                 fetch(`/get_motor_models/${company}`)
                     .then(response => {
                         if (!response.ok) {
@@ -104,8 +129,7 @@
                         return response.json();
                     })
                     .then(data => {
-                        var motorModelSelect = document.getElementById('motor_model');
-                        motorModelSelect.innerHTML = '<option value="">Pilih Model Motor</option>';
+                        loader.style.display = 'none';
                         data.forEach(function (model) {
                             var option = document.createElement('option');
                             option.value = model;
@@ -114,11 +138,26 @@
                         });
                     })
                     .catch(error => {
+                        loader.style.display = 'none';
                         console.error("Error fetching motor models:", error);
-                        alert("Gagal memuat model motor. Pastikan data perusahaan valid.");
+                        alert("Gagal memuat model motor. Coba lagi atau pastikan perusahaan valid.");
                     });
             }
         });
+
+        function validateForm() {
+            var company = document.getElementById('company').value;
+            var model = document.getElementById('motor_model').value;
+            var year = document.getElementById('year').value;
+            var fuel = document.getElementById('fuel').value;
+            var kilo = document.getElementById('kilo').value;
+            
+            if (!company || !model || !year || !fuel || !kilo) {
+                alert("Semua bidang harus diisi!");
+                return false;
+            }
+            return true;
+        }
     </script>
 </body>
 </html>
