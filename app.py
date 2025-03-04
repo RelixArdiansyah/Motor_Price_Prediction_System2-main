@@ -36,13 +36,13 @@ def encode_value(column, value):
     return mappings[column].get(value, None)
 
 # Fungsi untuk membuat tabel users jika belum ada
-def create_user_table():
+def create_user_table():  
     try:
         conn = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='Kontolmeledak@123',
-            database='motor_predictor'
+            host="localhost",
+            user="admin",
+            password="admin123",
+            database="prediksi_motor"
         )
         if conn.is_connected():
             cursor = conn.cursor()
@@ -51,18 +51,20 @@ def create_user_table():
                                 password VARCHAR(255) NOT NULL)''')
             conn.commit()
             cursor.close()
+    except Error as e:
+        print(f"Error: {e}")
     finally:
-        if conn.is_connected():
+        if 'conn' in locals() and conn.is_connected():
             conn.close()
 
 # Fungsi untuk menambahkan pengguna ke database
 def add_user(username, password):
     try:
         conn = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='Kontolmeledak@123',
-            database='motor_predictor'
+            host="localhost",
+            user="admin",
+            password="admin123",
+            database="prediksi_motor"
         )
         cursor = conn.cursor()
         cursor.execute("INSERT INTO users (username, password) VALUES (%s, %s)", (username, password))
@@ -70,18 +72,18 @@ def add_user(username, password):
     except Error as e:
         print(f"Error: {e}")
     finally:
-        if conn.is_connected():
+        if 'conn' in locals() and conn.is_connected():
             conn.close()
 
 # Fungsi untuk memeriksa kredensial pengguna di database
 def check_user(username, password):
     try:
         conn = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='Kontolmeledak@123',
-            database='motor_predictor'
-        )
+            host="localhost",
+            user="admin",
+            password="admin123",
+            database="prediksi_motor"
+        )      
         cursor = conn.cursor()
         cursor.execute("SELECT password FROM users WHERE username = %s", (username,))
         result = cursor.fetchone()
@@ -92,7 +94,7 @@ def check_user(username, password):
         print(f"Error: {e}")
         return False
     finally:
-        if conn.is_connected():
+        if 'conn' in locals() and conn.is_connected():
             conn.close()
 
 # Membuat tabel users jika belum ada
@@ -105,26 +107,31 @@ def register():
         username = request.form['username']
         password = request.form['password']
         
-        conn = mysql.connector.connect(
-            host='localhost',
-            user='root',
-            password='Kontolmeledak@123',
-            database='motor_predictor'
-        )
-        cursor = conn.cursor()
-        cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
-        user_exists = cursor.fetchone()
-        conn.close()
+        try:
+            conn = mysql.connector.connect(
+                host="localhost",
+                user="admin",
+                password="admin123",
+                database="prediksi_motor"
+            )
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+            user_exists = cursor.fetchone()
+            cursor.close()
+            conn.close()
+            
+            if user_exists:
+                flash('Username sudah terdaftar, silakan pilih username lain.', 'danger')
+                return redirect(url_for('register'))
+            
+            hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+            add_user(username, hashed_password)
+            
+            flash('Registrasi berhasil! Silakan login.', 'success')
+            return redirect(url_for('login'))
         
-        if user_exists:
-            flash('Username sudah terdaftar, silakan pilih username lain.', 'danger')
-            return redirect(url_for('register'))
-        
-        hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
-        add_user(username, hashed_password)
-        
-        flash('Registrasi berhasil! Silakan login.', 'success')
-        return redirect(url_for('login'))
+        except Error as e:
+            flash(f'Error: {str(e)}', 'danger')
     
     return render_template('register.html')
 
