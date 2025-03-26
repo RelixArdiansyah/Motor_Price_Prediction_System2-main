@@ -52,3 +52,4 @@ This is an end-to-end Motor Price Prediction System, developed using Linear Regr
 
 ## License
 This project is open-source under the MIT License.
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
