@@ -41,7 +41,7 @@ def create_user_table():
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='Kontolmeledak@123',
+            password='admin@123',
             database='motor_predictor'
         )
         if conn.is_connected():
@@ -61,7 +61,7 @@ def add_user(username, password):
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='Kontolmeledak@123',
+            password='admin@123',
             database='motor_predictor'
         )
         cursor = conn.cursor()
@@ -79,7 +79,7 @@ def check_user(username, password):
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='Kontolmeledak@123',
+            password='admin@123',
             database='motor_predictor'
         )
         cursor = conn.cursor()
@@ -108,7 +108,7 @@ def register():
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='Kontolmeledak@123',
+            password='admin@123',
             database='motor_predictor'
         )
         cursor = conn.cursor()
