@@ -39,17 +39,10 @@ def encode_value(column, value):
 def create_user_table():  
     try:
         conn = mysql.connector.connect(
-<<<<<<< HEAD
             host='localhost',
             user='root',
             password='admin@123',
             database='motor_predictor'
-=======
-            host="localhost",
-            user="admin",
-            password="admin123",
-            database="prediksi_motor"
->>>>>>> ec81941b0cc0338bb9538fc12b39c6e2cdd1f9d3
         )
         if conn.is_connected():
             cursor = conn.cursor()
@@ -68,17 +61,10 @@ def create_user_table():
 def add_user(username, password):
     try:
         conn = mysql.connector.connect(
-<<<<<<< HEAD
             host='localhost',
             user='root',
             password='admin@123',
             database='motor_predictor'
-=======
-            host="localhost",
-            user="admin",
-            password="admin123",
-            database="prediksi_motor"
->>>>>>> ec81941b0cc0338bb9538fc12b39c6e2cdd1f9d3
         )
         cursor = conn.cursor()
         cursor.execute("INSERT INTO users (username, password) VALUES (%s, %s)", (username, password))
@@ -93,19 +79,11 @@ def add_user(username, password):
 def check_user(username, password):
     try:
         conn = mysql.connector.connect(
-<<<<<<< HEAD
             host='localhost',
             user='root',
             password='admin@123',
             database='motor_predictor'
         )
-=======
-            host="localhost",
-            user="admin",
-            password="admin123",
-            database="prediksi_motor"
-        )      
->>>>>>> ec81941b0cc0338bb9538fc12b39c6e2cdd1f9d3
         cursor = conn.cursor()
         cursor.execute("SELECT password FROM users WHERE username = %s", (username,))
         result = cursor.fetchone()
@@ -129,7 +107,6 @@ def register():
         username = request.form['username']
         password = request.form['password']
         
-<<<<<<< HEAD
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
@@ -140,30 +117,6 @@ def register():
         cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
         user_exists = cursor.fetchone()
         conn.close()
-=======
-        try:
-            conn = mysql.connector.connect(
-                host="localhost",
-                user="admin",
-                password="admin123",
-                database="prediksi_motor"
-            )
-            cursor = conn.cursor()
-            cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
-            user_exists = cursor.fetchone()
-            cursor.close()
-            conn.close()
-            
-            if user_exists:
-                flash('Username sudah terdaftar, silakan pilih username lain.', 'danger')
-                return redirect(url_for('register'))
-            
-            hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
-            add_user(username, hashed_password)
-            
-            flash('Registrasi berhasil! Silakan login.', 'success')
-            return redirect(url_for('login'))
->>>>>>> ec81941b0cc0338bb9538fc12b39c6e2cdd1f9d3
         
         except Error as e:
             flash(f'Error: {str(e)}', 'danger')
