@@ -36,12 +36,12 @@ def encode_value(column, value):
     return mappings[column].get(value, None)
 
 # Fungsi untuk membuat tabel users jika belum ada
-def create_user_table():  
+def create_user_table():
     try:
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='admin@123',
+            password='password',
             database='motor_predictor'
         )
         if conn.is_connected():
@@ -51,10 +51,8 @@ def create_user_table():
                                 password VARCHAR(255) NOT NULL)''')
             conn.commit()
             cursor.close()
-    except Error as e:
-        print(f"Error: {e}")
     finally:
-        if 'conn' in locals() and conn.is_connected():
+        if conn.is_connected():
             conn.close()
 
 # Fungsi untuk menambahkan pengguna ke database
@@ -63,7 +61,7 @@ def add_user(username, password):
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='admin@123',
+            password='password',
             database='motor_predictor'
         )
         cursor = conn.cursor()
@@ -72,7 +70,7 @@ def add_user(username, password):
     except Error as e:
         print(f"Error: {e}")
     finally:
-        if 'conn' in locals() and conn.is_connected():
+        if conn.is_connected():
             conn.close()
 
 # Fungsi untuk memeriksa kredensial pengguna di database
@@ -81,7 +79,7 @@ def check_user(username, password):
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='admin@123',
+            password='password',
             database='motor_predictor'
         )
         cursor = conn.cursor()
@@ -94,7 +92,7 @@ def check_user(username, password):
         print(f"Error: {e}")
         return False
     finally:
-        if 'conn' in locals() and conn.is_connected():
+        if conn.is_connected():
             conn.close()
 
 # Membuat tabel users jika belum ada
@@ -110,7 +108,7 @@ def register():
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='admin@123',
+            password='password',
             database='motor_predictor'
         )
         cursor = conn.cursor()
@@ -118,8 +116,15 @@ def register():
         user_exists = cursor.fetchone()
         conn.close()
         
-        except Error as e:
-            flash(f'Error: {str(e)}', 'danger')
+        if user_exists:
+            flash('Username sudah terdaftar, silakan pilih username lain.', 'danger')
+            return redirect(url_for('register'))
+        
+        hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+        add_user(username, hashed_password)
+        
+        flash('Registrasi berhasil! Silakan login.', 'success')
+        return redirect(url_for('login'))
     
     return render_template('register.html')
 
@@ -201,7 +206,7 @@ def index():
             plt.ylabel("Harga (Juta Rp)")
             plt.title(f"Tren Harga Motor {selected_name} ({selected_company})")
 
-            # Format sumbu Y ke dalam juta (contoh: 12.560.000 → 12.6)
+            # Format sumbu Y ke dalam juta (contoh: 12.560.000 â†’ 12.6)
             plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{x/1_000_000:.1f}'))
 
             # Simpan gambar sebagai Base64
@@ -289,4 +294,4 @@ print(os.path.abspath("PrediksiHargaMotorJadi2.py"))
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=True)
