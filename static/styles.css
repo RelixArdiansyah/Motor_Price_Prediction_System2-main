@@ -157,10 +157,25 @@ table tbody tr:hover {
 }
 
 /* Footer */
-hr {
-    margin: 20px auto;
-    border: 0;
-    height: 1px;
-    background: #444;
-    width: 90%;
+footer {
+    background-color: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a {
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
 }

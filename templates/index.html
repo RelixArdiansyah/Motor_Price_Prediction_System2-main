@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prediksi Harga Motor</title>
+    <link rel="icon" href="{{ url_for('static', filename='dark-mode-icon.png') }}" type="image/png">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <style>
         .loader {
@@ -95,7 +96,7 @@
                 {% if prediction %}
                     <h3>Hasil Prediksi</h3>
                     <p>Harga Prediksi: <strong>Rp {{ "{:,.0f}".format(prediction).replace(',', '.') }}</strong></p>
-                    <p>Nilai R²: <strong>{{ "{:.4f}".format(r_squared) }}</strong></p>
+                    <p>Nilai RÂ²: <strong>{{ "{:.4f}".format(r_squared) }}</strong></p>
                     <p>Intercept: <strong>{{ "{:,.2f}".format(intercept) }}</strong></p>
                 {% else %}
                     <p>Masukkan informasi untuk memprediksi harga motor.</p>
@@ -110,10 +111,10 @@
                 {% endif %}
             </section>                      
         </main>
-        <footer style="text-align: center; margin-top: 20px; font-size: 14px;">
-            <p>© 2025 Riko Ardiansyah - Mahasiswa Teknik Komputer <a href="https://www.uniska-kediri.ac.id/" target="_blank" style="text-decoration: none; color: #3498db;">UNISKA Kediri</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/ricko_ard1/" target="_blank" style="text-decoration: none; color: #e1306c;">@ricko_ard1</a></p>
-        </footer>        
+    <footer>
+        <p>Â© 2025 Riko Ardiansyah - Mahasiswa Teknik Komputer <a href="https://www.uniska-kediri.ac.id/" target="_blank" >UNISKA Kediri</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/ricko_ard1/" target="_blank">@ricko_ard1</a></p>
+    </footer>
     </div>
 
     <script>
