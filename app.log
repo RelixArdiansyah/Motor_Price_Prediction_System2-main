@@ -1,0 +1,91 @@
+2025-04-14 23:37:54,889 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.14:8000
+2025-04-14 23:37:54,890 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 23:37:54,894 - INFO -  * Restarting with stat
+2025-04-14 23:37:56,604 - WARNING -  * Debugger is active!
+2025-04-14 23:37:56,611 - INFO -  * Debugger PIN: 502-989-810
+2025-04-14 23:38:02,970 - ERROR - Unhandled Exception: index() takes 0 positional arguments but 3 were given
+2025-04-14 23:38:02,971 - INFO - 192.168.1.14 - - [14/Apr/2025 23:38:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:38:04,924 - ERROR - Unhandled Exception: index() takes 0 positional arguments but 3 were given
+2025-04-14 23:38:04,925 - INFO - 192.168.1.14 - - [14/Apr/2025 23:38:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:38:28,225 - ERROR - Unhandled Exception: index() takes 0 positional arguments but 3 were given
+2025-04-14 23:38:28,226 - INFO - 192.168.1.14 - - [14/Apr/2025 23:38:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:38:32,931 - INFO - 192.168.1.14 - - [14/Apr/2025 23:38:32] "[36mGET /static/dark-mode-icon.png HTTP/1.1[0m" 304 -
+2025-04-14 23:38:34,369 - ERROR - Unhandled Exception: index() takes 0 positional arguments but 3 were given
+2025-04-14 23:38:34,370 - INFO - 192.168.1.14 - - [14/Apr/2025 23:38:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:39:32,052 - INFO -  * Detected change in 'd:\\Code Jadi\\Motor_Price_Prediction_System2-main\\prediction.py', reloading
+2025-04-14 23:39:32,224 - INFO -  * Restarting with stat
+2025-04-14 23:39:33,954 - WARNING -  * Debugger is active!
+2025-04-14 23:39:33,960 - INFO -  * Debugger PIN: 502-989-810
+2025-04-14 23:39:46,813 - ERROR - Unhandled Exception: Could not build url for endpoint 'index'. Did you mean 'index_route' instead?
+2025-04-14 23:39:46,814 - INFO - 192.168.1.14 - - [14/Apr/2025 23:39:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:39:49,958 - INFO - 192.168.1.14 - - [14/Apr/2025 23:39:49] "[36mGET /static/dark-mode-icon.png HTTP/1.1[0m" 304 -
+2025-04-14 23:39:51,160 - ERROR - Unhandled Exception: Could not build url for endpoint 'index'. Did you mean 'index_route' instead?
+2025-04-14 23:39:51,161 - INFO - 192.168.1.14 - - [14/Apr/2025 23:39:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:40:33,420 - INFO -  * Detected change in 'd:\\Code Jadi\\Motor_Price_Prediction_System2-main\\app.py', reloading
+2025-04-14 23:40:33,606 - INFO -  * Restarting with stat
+2025-04-14 23:40:35,397 - WARNING -  * Debugger is active!
+2025-04-14 23:40:35,406 - INFO -  * Debugger PIN: 502-989-810
+2025-04-14 23:40:45,318 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:45] "GET / HTTP/1.1" 200 -
+2025-04-14 23:40:45,458 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:40:45,522 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:45] "[36mGET /static/dark-mode-icon.png HTTP/1.1[0m" 304 -
+2025-04-14 23:40:50,064 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:50] "GET /login HTTP/1.1" 200 -
+2025-04-14 23:40:50,102 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:40:50,140 - ERROR - Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-04-14 23:40:50,141 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:50] "[35m[1mGET /static/script.js HTTP/1.1[0m" 500 -
+2025-04-14 23:40:59,822 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 23:40:59,850 - ERROR - Unhandled Exception: Could not build url for endpoint 'crud'. Did you mean 'crud_route' instead?
+2025-04-14 23:40:59,851 - INFO - 192.168.1.14 - - [14/Apr/2025 23:40:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:41:08,320 - INFO - 192.168.1.14 - - [14/Apr/2025 23:41:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 23:41:08,340 - ERROR - Unhandled Exception: Could not build url for endpoint 'crud'. Did you mean 'crud_route' instead?
+2025-04-14 23:41:08,341 - INFO - 192.168.1.14 - - [14/Apr/2025 23:41:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-14 23:42:03,688 - INFO -  * Detected change in 'd:\\Code Jadi\\Motor_Price_Prediction_System2-main\\crud_operations.py', reloading
+2025-04-14 23:42:03,872 - INFO -  * Restarting with stat
+2025-04-14 23:42:05,636 - WARNING -  * Debugger is active!
+2025-04-14 23:42:05,643 - INFO -  * Debugger PIN: 502-989-810
+2025-04-14 23:42:15,948 - INFO - 192.168.1.14 - - [14/Apr/2025 23:42:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 23:42:16,076 - INFO - 192.168.1.14 - - [14/Apr/2025 23:42:16] "GET / HTTP/1.1" 200 -
+2025-04-14 23:42:16,251 - INFO - 192.168.1.14 - - [14/Apr/2025 23:42:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:42:20,661 - ERROR - Unhandled Exception: crud() takes 0 positional arguments but 3 were given
+2025-04-14 23:42:20,663 - INFO - 192.168.1.14 - - [14/Apr/2025 23:42:20] "[35m[1mGET /crud HTTP/1.1[0m" 500 -
+2025-04-14 23:42:53,205 - INFO -  * Detected change in 'd:\\Code Jadi\\Motor_Price_Prediction_System2-main\\crud_operations.py', reloading
+2025-04-14 23:42:53,386 - INFO -  * Restarting with stat
+2025-04-14 23:42:55,182 - WARNING -  * Debugger is active!
+2025-04-14 23:42:55,190 - INFO -  * Debugger PIN: 502-989-810
+2025-04-14 23:43:04,323 - ERROR - Unhandled Exception: Could not build url for endpoint 'run_script'. Did you mean 'run_script_route' instead?
+2025-04-14 23:43:04,324 - INFO - 192.168.1.14 - - [14/Apr/2025 23:43:04] "[35m[1mGET /crud HTTP/1.1[0m" 500 -
+2025-04-14 23:43:05,453 - ERROR - Unhandled Exception: Could not build url for endpoint 'run_script'. Did you mean 'run_script_route' instead?
+2025-04-14 23:43:05,454 - INFO - 192.168.1.14 - - [14/Apr/2025 23:43:05] "[35m[1mGET /crud HTTP/1.1[0m" 500 -
+2025-04-14 23:43:06,740 - INFO - 192.168.1.14 - - [14/Apr/2025 23:43:06] "[36mGET /static/dark-mode-icon.png HTTP/1.1[0m" 304 -
+2025-04-14 23:43:08,581 - ERROR - Unhandled Exception: Could not build url for endpoint 'run_script'. Did you mean 'run_script_route' instead?
+2025-04-14 23:43:08,582 - INFO - 192.168.1.14 - - [14/Apr/2025 23:43:08] "[35m[1mGET /crud HTTP/1.1[0m" 500 -
+2025-04-14 23:43:50,528 - INFO - 192.168.1.14 - - [14/Apr/2025 23:43:50] "GET /crud HTTP/1.1" 200 -
+2025-04-14 23:43:50,582 - INFO - 192.168.1.14 - - [14/Apr/2025 23:43:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:43:51,671 - INFO - 192.168.1.14 - - [14/Apr/2025 23:43:51] "[36mGET /static/dark-mode-icon.png HTTP/1.1[0m" 304 -
+2025-04-14 23:44:04,383 - INFO - 192.168.1.14 - - [14/Apr/2025 23:44:04] "[32mPOST /crud HTTP/1.1[0m" 302 -
+2025-04-14 23:44:04,456 - INFO - 192.168.1.14 - - [14/Apr/2025 23:44:04] "GET /crud HTTP/1.1" 200 -
+2025-04-14 23:44:04,642 - INFO - 192.168.1.14 - - [14/Apr/2025 23:44:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:44:19,884 - INFO - 192.168.1.14 - - [14/Apr/2025 23:44:19] "[32mPOST /crud HTTP/1.1[0m" 302 -
+2025-04-14 23:44:19,961 - INFO - 192.168.1.14 - - [14/Apr/2025 23:44:19] "GET /crud HTTP/1.1" 200 -
+2025-04-14 23:44:20,158 - INFO - 192.168.1.14 - - [14/Apr/2025 23:44:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:44:36,048 - ERROR - Unhandled Exception: run_script() takes 0 positional arguments but 3 were given
+2025-04-14 23:44:36,048 - INFO - 192.168.1.14 - - [14/Apr/2025 23:44:36] "[35m[1mPOST /run_script HTTP/1.1[0m" 500 -
+2025-04-14 23:45:11,959 - INFO -  * Detected change in 'd:\\Code Jadi\\Motor_Price_Prediction_System2-main\\crud_operations.py', reloading
+2025-04-14 23:45:12,096 - INFO -  * Restarting with stat
+2025-04-14 23:45:13,884 - WARNING -  * Debugger is active!
+2025-04-14 23:45:13,891 - INFO -  * Debugger PIN: 502-989-810
+2025-04-14 23:45:22,854 - INFO - 192.168.1.14 - - [14/Apr/2025 23:45:22] "[32mPOST /run_script HTTP/1.1[0m" 302 -
+2025-04-14 23:45:22,929 - INFO - 192.168.1.14 - - [14/Apr/2025 23:45:22] "GET /crud HTTP/1.1" 200 -
+2025-04-14 23:45:23,221 - INFO - 192.168.1.14 - - [14/Apr/2025 23:45:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:45:46,488 - INFO - 192.168.1.14 - - [14/Apr/2025 23:45:46] "[32mPOST /crud HTTP/1.1[0m" 302 -
+2025-04-14 23:45:46,568 - INFO - 192.168.1.14 - - [14/Apr/2025 23:45:46] "GET /crud HTTP/1.1" 200 -
+2025-04-14 23:45:46,750 - INFO - 192.168.1.14 - - [14/Apr/2025 23:45:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:46:40,258 - INFO - 192.168.1.14 - - [14/Apr/2025 23:46:40] "[32mPOST /crud HTTP/1.1[0m" 302 -
+2025-04-14 23:46:40,316 - INFO - 192.168.1.14 - - [14/Apr/2025 23:46:40] "GET /crud HTTP/1.1" 200 -
+2025-04-14 23:46:40,487 - INFO - 192.168.1.14 - - [14/Apr/2025 23:46:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 23:51:52,892 - INFO -  * Detected change in 'd:\\Code Jadi\\Motor_Price_Prediction_System2-main\\app.py', reloading
+2025-04-14 23:51:53,137 - INFO -  * Restarting with stat
+2025-04-14 23:59:40,474 - INFO -  * Restarting with stat
+2025-04-15 00:02:24,721 - INFO -  * Restarting with stat
